@@ -9,13 +9,3 @@ body {
     text-align: center;
 }
 
-.grid-container{
-    display: grid;
-    height: 400px;
-    align-content: space-evenly;
-}
-
-.adjust-line-height {
-    line-height: 0.3em;
-}
-
