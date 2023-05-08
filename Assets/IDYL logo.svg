@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114.25" height="59" viewBox="0 0 114.25 59">
+  <g id="IDYL_logo" data-name="IDYL logo" transform="translate(0.026)">
+    <g id="Sunset_logo" data-name="Sunset logo" transform="translate(-92.925 -3.076)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(96.815 23)" fill="none" stroke="#37406e" stroke-width="1">
+        <circle cx="9.137" cy="9.137" r="9.137" stroke="none"/>
+        <circle cx="9.137" cy="9.137" r="8.637" fill="none"/>
+      </g>
+      <path id="Path_4" data-name="Path 4" d="M0,0C28.423.509,26.57.871,26.805,1.911s-22.833.9-23.052,1.611,15.6,1.284,16.837,2.112-8.691.01-11.883,1.2,8.629,1.805,8.629,1.805" transform="translate(92.925 43.2) rotate(-3)" fill="none" stroke="#37406e" stroke-width="0.75"/>
+    </g>
+    <text id="idyl" transform="translate(31.223 47)" fill="#37406e" font-size="40" font-family="IvyPrestoDisplay-Regular, IvyPresto Display"><tspan x="0" y="0">IDYL</tspan></text>
+  </g>
+</svg>
