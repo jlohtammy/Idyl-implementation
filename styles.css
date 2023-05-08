@@ -22,6 +22,10 @@ body {
 
 }
 
+.bolded {
+    font-weight: bold;
+}
+
 .layout {
     display: flex;
     flex-wrap: wrap;
