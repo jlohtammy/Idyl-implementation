@@ -62,9 +62,3 @@ body {
 .blue-text{
     color: #37406E;
 }
-
-/* for Home page */
-#banner{
-    width: 100vh;
-    height: 50vh;
-}
