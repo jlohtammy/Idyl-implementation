@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 3% 1% 10%
+    padding: 1% 5%;
 
 }
 
@@ -19,10 +19,27 @@ header{
     cursor: pointer;
 }
 
+nav > ul{
+    list-style: none;
+}
+
+nav > ul > li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav > ul > li > a{
+    transition: all 0.3s ease 0s;
+}
+
+nav > ul > li > a :hover{
+    background-color: red;
+}
+
 header > section{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: searchInput searchInput searchIcon cartIcon;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 
 #search > input{
@@ -31,15 +48,9 @@ header > section{
 }
 
 #search > img{
-    grid-column: 3/4;
-    grid-area: searchIcon;
-    background-color: aquamarine;
     scale: 60%;
 }
 header > section > article > img {
-    grid-column: 4/5; 
-    grid-area: cartIcon;
-    background-color: pink;
     scale: 60%;
 }
 
