@@ -1,5 +1,15 @@
 @import "root_styles.css";
 
+body{
+    background-color: var(--colour-light);
+}
+
+header{
+    background-color: var(--colour-lightest);
+    display: flexbox;
+    justify-self: auto;
+}
+
 #banner{
     width: 100vh;
     height: 50vh;
