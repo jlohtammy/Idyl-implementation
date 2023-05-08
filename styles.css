@@ -22,7 +22,7 @@ body {
 
 }
 
-.layout{
+.layout {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5em;  
@@ -33,3 +33,24 @@ body {
     row-gap: 20px;
 }
 
+.container {
+    overflow: hidden;
+}
+
+.filterDiv{
+    float: left;
+    background-color:#37406E;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.btn{
+    cursor: pointer;
+}

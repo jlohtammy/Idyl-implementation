@@ -5,14 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/hyj6lts.css">
    
     <title>IDYL</title>
 </head>
 <body>
     <h2>TOPS & TSHIRTS</h2>
+
+    <div id="myBtnContainer">
+        <button class="btn-active" onclick="filterSelection('all')"> Show all </button>
+        <button class="btn" onclick="filterSelection('Blue')">Blue</button>
+        <button class="btn" onclick="filterSelection('Yellow')">Yellow</button>
+        <button class="btn" onclick="filterSelection('Green')">Green</button>
+        <button class="btn" onclick="filterSelection('Patterned')">Patterned</button>
+    </div>
+
+    <div class="container">
+        <div class="filterDiv Blue">Pure Linen Hilo Top</div>
+        <div class="filterDiv Yellow">Cotton Waffle Weave Top</div>
+        <div class="filterDiv Green">Cotton Waffle Weave Top</div>
+        <div class="filterDiv Patterned">Linen & Cotton Summer Top</div>
+        <div class="filterDiv Green">Cotton Waffle Weave Top</div>
+        <div class="filterDiv Patterned">Cotton Print Tee</div>
+        <div class="filterDiv Patterned">Summer Print Top</div>
+        <div class="filterDiv Patterned">Linen Cotton Summer Top</div>
+    </div>
 
     <div class ="layout"> 
         <div class="layout_item">
@@ -20,7 +37,7 @@
                 <img class="item" src= "Assets/idyl top.jpg" alt="Blue shirt"
             width= "350"
             height= "500">
-            <figcaption>Pure Linen HiLo Top</figcaption>
+            <figcaption>PURE LINEN HILO TOP</figcaption>
             <figcaption>$149</figcaption>
         </figure>
         </div>
@@ -30,7 +47,7 @@
             <img class="item" src="Assets/idyl yellow top.jpg" alt="yellow blouse"
             width="350"
             height="500">
-            <figcaption>Cotton Waffle Weave Top</figcaption>
+            <figcaption>COTTON WAFFLE WEAVE TOP</figcaption>
             <figcaption>$88</figcaption>
         </figure>
     </div>
@@ -40,7 +57,7 @@
         <img class="item" src="Assets/green top.jpg" alt="Green blouse"
         width="350"
         height="500">
-        <figcaption>Cotton Waffle Top</figcaption>
+        <figcaption>COTTON WAFFLE WEAVE TOP</figcaption>
         <figcaption>$88</figcaption>
     </figure>
 </div>
@@ -50,7 +67,7 @@
         <img class="item" src="Assets/colourful top.jpg" alt="Colourful top"
         width="350"
         height="500">
-        <figcaption>Linen and Cotton Summer Top</figcaption>
+        <figcaption>LINEN & COTTON SUMMER TOP</figcaption>
         <figcaption>$169</figcaption>
     </figure>
 </div>
@@ -61,17 +78,17 @@
         <img class="item" src="Assets/weave hi lo top.jpg" alt="Beige blouse"
         width="350"
         height="500">
-        <figcaption>Cotton Waffle Weave Top</figcaption>
+        <figcaption>COTTON WAFFLE WEAVE TOP</figcaption>
         <figcaption>$88</figcaption>
     </figure>
-    </div>
+</div>
 
     <div class="layout_item">
     <figure>
     <img class="item" src="Assets/purple green patterned top.jpg" alt="Blue print top"
     width="350"
     height="500">
-    <figcaption>Cotton Print Tee</figcaption>
+    <figcaption>COTTON PRINT TEE</figcaption>
     <figcaption>$98</figcaption>
 </figure>
 </div>
@@ -81,7 +98,7 @@
         <img class="item" src="Assets/summer print top.jpg" alt="Pink blouse"
         width="350"
         height="500">
-        <figcaption>Summer Print Top</figcaption>
+        <figcaption>SUMMER PRINT TOP</figcaption>
         <figcaption>$179</figcaption>
    </figure>
 </div>
@@ -91,7 +108,7 @@
         <img class="item" src="Assets/yellow summer top.jpg" alt="Yellow print top"
         width="350"
         height="500">
-        <figcaption>Linen Cotton Summer Top</figcaption>
+        <figcaption>LINEN COTTON SUMMER TOP</figcaption>
         <figcaption>$169</figcaption>
     </figure>
 </div>
