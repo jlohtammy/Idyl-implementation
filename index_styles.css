@@ -1,13 +1,18 @@
 @import "root_styles.css";
 
-body{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: var(--colour-light);
 }
 
 header{
     background-color: var(--colour-lightest);
-    display: flexbox;
-    justify-self: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30% 10%;
 }
 
 #banner{
