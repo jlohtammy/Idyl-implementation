@@ -15,6 +15,10 @@ header{
 
 }
 
+#logo{
+    cursor: pointer;
+}
+
 header > section{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -45,3 +49,4 @@ header > section > article > img {
     height: 50vh;
     background-color: red;
 }
+
