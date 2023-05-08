@@ -72,3 +72,15 @@ header > section > article > img {
     text-align: right;
     font-size: 30px;
 }
+
+.bannerOverlay > p{
+    font-size: 0.8em;
+    margin-top: 1%;
+    font-weight: lighter;
+}
+
+p > .btn{
+    font-size: 0.8em;
+    margin-top: 1%;
+    font-weight: bolder;
+}
