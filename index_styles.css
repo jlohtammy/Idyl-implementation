@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--colour-light);
 }
 
 header{
@@ -12,10 +11,37 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30% 10%;
+    padding: 1% 3% 1% 10%
+
 }
+
+header > section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: searchInput searchInput searchIcon cartIcon;
+}
+
+#search > input{
+    visibility: hidden;
+    grid-area: searchInput;
+}
+
+#search > img{
+    grid-column: 3/4;
+    grid-area: searchIcon;
+    background-color: aquamarine;
+    scale: 60%;
+}
+header > section > article > img {
+    grid-column: 4/5; 
+    grid-area: cartIcon;
+    background-color: pink;
+    scale: 60%;
+}
+
 
 #banner{
     width: 100vh;
     height: 50vh;
+    background-color: red;
 }
