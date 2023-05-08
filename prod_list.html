@@ -4,32 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="prod_list_styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/hyj6lts.css">
    
     <title>IDYL</title>
 </head>
+
 <body>
     <h2 class="blue-text" color=blue;>TOPS & TSHIRTS</h2>
+    
+    <select class="myselect">
+    <option value="">Filter</option>
+    <option value="Blue">Blue</option>
+    <option value="Green">Green</option>
+    <option value="Yellow">Yellow</option>
+    <option value="Patterned">Patterned</option>
+</select>
 
-    <div id="myBtnContainer">
-        <button class="btn-active" onclick="filterSelection('all')"> Show all </button>
-        <button class="btn" onclick="filterSelection('Blue')">Blue</button>
-        <button class="btn" onclick="filterSelection('Yellow')">Yellow</button>
-        <button class="btn" onclick="filterSelection('Green')">Green</button>
-        <button class="btn" onclick="filterSelection('Patterned')">Patterned</button>
-    </div>
-
-    <div class="container">
-        <div class="filterDiv Blue">Pure Linen Hilo Top</div>
-        <div class="filterDiv Yellow">Cotton Waffle Weave Top</div>
-        <div class="filterDiv Green">Cotton Waffle Weave Top</div>
-        <div class="filterDiv Patterned">Linen & Cotton Summer Top</div>
-        <div class="filterDiv Green">Cotton Waffle Weave Top</div>
-        <div class="filterDiv Patterned">Cotton Print Tee</div>
-        <div class="filterDiv Patterned">Summer Print Top</div>
-        <div class="filterDiv Patterned">Linen Cotton Summer Top</div>
-    </div>
+<select class="myselect2">
+    <option value="">Sort</option>
+    <option value="Price">Price</option>
+    <option value="Size">Size</option>
+</select>
 
     <div class ="layout"> 
         <div class="layout_item">
@@ -72,7 +68,6 @@
     </figure>
 </div>
 
-
 <div class="layout_item">
     <figure>
         <img class="item" src="Assets/weave hi lo top.jpg" alt="Beige blouse"
@@ -108,11 +103,13 @@
         <img class="item" src="Assets/yellow summer top.jpg" alt="Yellow print top"
         width="350"
         height="500">
-        <figcaption><span class="bolded">LINEN COTTON SUMMER TO</span>P</figcaption>
+        <figcaption><span class="bolded">LINEN COTTON SUMMER TOP</span></figcaption>
         <figcaption>$169</figcaption>
     </figure>
 </div>
 </div>
 </div>
+
+<p><span class="bolded">Load more items</span></p>
 </body>
 </html>
