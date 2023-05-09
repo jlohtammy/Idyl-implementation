@@ -12,11 +12,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1% 5%;
+    font-family: var(--font-body);
 
-}
-
-#logo{
-    cursor: pointer;
 }
 
 nav > ul{
