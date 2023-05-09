@@ -6,6 +6,8 @@
     padding: 0;
 }
 
+ /* HEADER SECTION */
+
 header{
     background-color: var(--colour-lightest);
     display: flex;
@@ -37,7 +39,6 @@ nav > ul > li > a:hover{
     font-style: normal;
 }
 
-
 header > section{
     display: flex;
     flex-direction: row;
@@ -56,6 +57,7 @@ header > section > article > img {
     scale: 60%;
 }
 
+ /* MAIN SECTION */
 
 .bannerImage{
     width: 100vw;
@@ -90,4 +92,15 @@ header > section > article > img {
 
 .btn :visited{
     color: var(--colour-medium);
+}
+
+.values{
+    background-color: var(--colour-light);
+}
+
+.values > img{
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0 40%;
 }
