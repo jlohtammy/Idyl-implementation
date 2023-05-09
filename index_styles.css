@@ -68,7 +68,7 @@ header > section > article > img {
     color: var(--colour-lightest);
     position: absolute;
     top: 60%;
-    right: 5%;
+    right: 7%;
     text-align: right;
     font-size: 30px;
 }
@@ -79,8 +79,13 @@ header > section > article > img {
     font-weight: lighter;
 }
 
-p > .btn{
+.btn{
     font-size: 0.8em;
     margin-top: 1%;
-    font-weight: bolder;
+    font-weight: normal;
+    color: var(--colour-lightest);
+}
+
+.btn :visited{
+    color: var(--colour-medium);
 }
