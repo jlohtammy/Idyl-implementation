@@ -12,26 +12,31 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1% 5%;
-    font-family: var(--font-body);
-
 }
 
 nav > ul{
     list-style: none;
+    font-family: var(--font-special);
+    color: var(--colour-dark);
 }
 
 nav > ul > li{
     display: inline-block;
-    padding: 0 20px;
+    margin: 0 20px;
 }
 
-nav > ul > li > a{
-    transition: all 0.3s ease 0s;
+nav > ul > li:hover{
+    cursor: not-allowed;
 }
 
-nav > ul > li > a :hover{
+nav > ul > li > a:hover{
     /* need to add the extension when hovering */
+    transition: all 0.3s ease 0s;
+    /* so far only bolding the text */
+    font-weight: 700;
+    font-style: normal;
 }
+
 
 header > section{
     display: flex;
