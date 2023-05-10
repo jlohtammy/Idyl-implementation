@@ -39,7 +39,7 @@ nav > ul{
 
 nav > ul > li{
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 nav > ul > li:hover{
@@ -189,11 +189,12 @@ header > section > article > img {
 .newsLetter{
     display: flexbox;
     justify-content: center;
-    width: 80vw;
+    width: 65vw;
+    margin: 1em 0 4em 0;
 }
 
 input[type=text]{
-    width: 80%;
+    width: 782px;
     height: 45px; 
     padding: 12px 20px; 
     margin: 15px 15px 8px 0; 
