@@ -206,12 +206,25 @@ input[type=text]{
 .applyBtn{
     width: 90px;
     height: 45px;
-
     box-sizing: border-box;
     border: none;
     border-radius: 17px;
-
     background-color: var(--colour-dark);
     color: var(--colour-lightest);
     font-style: var(--fontheading);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 227px;
+    height: 250px;
+}
+
+.openingHours .contactUs .address{
+    display: flexbox;
+    justify-content: left;
+
 }
