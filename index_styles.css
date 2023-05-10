@@ -96,6 +96,22 @@ header > section > article > img {
 
 .values{
     background-color: var(--colour-light);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding: 5vw;
+    font-family: var(--font-body);
+    color: var(--colour-dark2);
+}
+
+.textbox {
+    display: flexbox;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
+    line-height: 1.3em;
 }
 
 .values > img{
