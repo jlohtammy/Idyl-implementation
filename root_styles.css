@@ -1,6 +1,6 @@
 :root {
-    --fontheading: 'Didact Gothic', sans-serif;
-    --font-body: 'Didact Gothic', sans-serif;
+    --fontheading: 'futura-pt','Didact Gothic', sans-serif;
+    --font-body: 'futura-pt', 'Didact Gothic', sans-serif;
     --font-special: 'ivypresto-display', serif;
     --colour-dark: #37406E;
     --colour-dark2: #704F38;
