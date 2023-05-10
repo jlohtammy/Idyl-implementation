@@ -171,3 +171,46 @@ header > section > article > img {
     object-fit: cover;
     margin: 10px;
 }
+
+ /* FOOTER SECTION */
+
+ footer{
+    background-color: var(--colour-light-cold);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 7vh 25vw;
+    font-family: var(--font-body);
+    color: var(--colour-dark);
+
+}
+
+.newsLetter{
+    display: flexbox;
+    justify-content: center;
+    width: 80vw;
+}
+
+input[type=text]{
+    width: 80%;
+    height: 45px; 
+    padding: 12px 20px; 
+    margin: 15px 15px 8px 0; 
+    box-sizing: border-box;
+    border: 1px solid var(--colour-medium);
+    border-radius: 17px;
+}
+
+.applyBtn{
+    width: 90px;
+    height: 45px;
+
+    box-sizing: border-box;
+    border: none;
+    border-radius: 17px;
+
+    background-color: var(--colour-dark);
+    color: var(--colour-lightest);
+    font-style: var(--fontheading);
+}
