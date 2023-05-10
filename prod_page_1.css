@@ -39,7 +39,7 @@ body{
 .textbox > h2{
     font-weight: 500;
     width: 17vw;
-    color:#37406E
+    color:#37406E;
 }
 
 .textbox > h3{
@@ -77,8 +77,31 @@ ul {
 .sizes > p{
     text-align: left;
     margin-left: 1.2vw;
+    font-weight: bold;
 }
 
-.size-btns{ 
-    text-align: left;
+.size-btns{
+    margin-left: 0.5vw;
+    padding: 0;
+    background-color: none;
+    color: #37406E;
+ }
+
+.btn-6{
+    margin-right: 50px;
+    color: #37406E;
+}
+
+.btn-8{
+    margin-right: 50px;
+    color: #37406E;
+}
+
+.btn-10{
+    margin-right: 50px;
+    color: #37406E;
+}
+
+.btn-12{
+    color: #37406E;
 }
