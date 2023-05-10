@@ -10,9 +10,9 @@ body{
 .itemstructure{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 1em;
-    margin-bottom: 5em;
-    margin-left: 10em;
+    margin-top: -6em;
+    margin-bottom:5em;
+    margin-left: 13em;
     gap: 25px;
     width: 100vw;
     height: 80vh;
@@ -24,9 +24,31 @@ body{
     margin-top: 10em;
 }
 
-.container{
+.mainphoto > img{
+    margin-left: 91px;
+}
+
+.textbox{
+    display: flexbox;
+    flex-direction: column;
+    width: 17vw;
+    margin-top: -3vh;
+}
+
+.textbox > h2{
+    font-weight: 500;
+    width: 17vw;
+}
+
+.textbox > h3{
+    font-weight: 100;
+    margin-left: -12vw;
+}
+
+.mainphoto{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -535px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding: 8vw;
 }
