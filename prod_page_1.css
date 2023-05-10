@@ -66,10 +66,19 @@ body{
 
 ul {
     list-style-type: none;
-    margin: 10;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     text-align: left;
     margin-left: 17px;
     
+}
+
+.sizes > p{
+    text-align: left;
+    margin-left: 1.2vw;
+}
+
+.size-btns{ 
+    text-align: left;
 }
