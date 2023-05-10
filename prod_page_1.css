@@ -33,11 +33,13 @@ body{
     flex-direction: column;
     width: 17vw;
     margin-top: -3vh;
+    color: #37406E;
 }
 
 .textbox > h2{
     font-weight: 500;
     width: 17vw;
+    color:#37406E
 }
 
 .textbox > h3{
@@ -52,3 +54,14 @@ body{
     gap: 2%;
     padding: 8vw;
 }
+
+.textbox > p1{
+    font-weight: bold;
+    text-align: left;
+    justify-content: start;
+}
+
+.textbox > p{
+    margin-left: 8vw;
+}
+
