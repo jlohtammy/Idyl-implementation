@@ -20,11 +20,12 @@ body {
 
 }
 
+/* PRODUCT NAMES */
 .bolded {
     font-weight: bold;
 }
 
-
+/* FLEX BOX FOR CONTENT */
 .layout {
     display: flex;
     flex-wrap: wrap;
@@ -34,12 +35,13 @@ body {
     align-items: center;
     justify-content: center;
     row-gap: 20px;
+    object-fit: cover;
 }
 
 .container {
     overflow: hidden;
 }
-
+/* FILTER AND SORT BUTTONS */
 .filterDiv{
     float: left;
     background-color:#37406E;
@@ -80,3 +82,4 @@ body {
     background-color: transparent;
     font-size: 19px;
 }
+
