@@ -109,21 +109,40 @@ ul {
     margin-right: 50px;
     color: #37406E;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .btn-8{
     margin-right: 50px;
     color: #37406E;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .btn-10{
     margin-right: 50px;
     color: #37406E;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .btn-12{
     color: #37406E;
     font-size: 25px;
+    text-decoration: none;
+}
+
+/* Add to cart btn */
+.add-cart-btn{
+    background-color: #37406E;
+    color: #F3EBDC;
+    text-decoration: none;
+    padding: 10px 80px;
+    font-size: 30px;
+    border: none;
+}
+
+.btn-container{
+    width: 100vw;
+    height: 100vh;
 }
