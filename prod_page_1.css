@@ -9,9 +9,9 @@ body{
 
 .itemstructure{
     display: flex;
-    margin-top: -17em;
-    margin-bottom: -5em;
-    margin-left: 13em;
+    margin-top: -12em;
+    margin-bottom: -10em;
+    margin-left: 5.7em;
     gap: 25px;
     width: 100vw;
 }
@@ -137,10 +137,11 @@ ul {
     background-color: #37406E;
     color: #F3EBDC;
     text-decoration: none;
-    padding: 10px 80px;
+    padding: 5px 100px;
     font-size: 30px;
     border: none;
     margin-bottom: 100px;
+    margin-left: 45px;
 }
 
 .btn-container{
