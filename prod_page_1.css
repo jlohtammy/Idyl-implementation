@@ -9,19 +9,20 @@ body{
 
 .itemstructure{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: -6em;
-    margin-bottom:5em;
+    margin-top: -17em;
+    margin-bottom: -5em;
     margin-left: 13em;
     gap: 25px;
     width: 100vw;
-    height: 80vh;
 }
 
-
-
+/* Product title */
 .prod-name{
     margin-top: 10em;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
 }
 
 .mainphoto > img{
@@ -29,24 +30,32 @@ body{
 }
 
 .textbox{
-    display: flexbox;
     flex-direction: column;
     width: 17vw;
     margin-top: -3vh;
     color: #37406E;
 }
 
+
 .textbox > h2{
     font-weight: 500;
     width: 17vw;
     color:#37406E;
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: clip;
+    margin-left: 20px;
 }
-
+/* Price */
 .textbox > h3{
     font-weight: 100;
-    margin-left: -12vw;
+    margin-left: -10vw;
+    font-size: 30px;
+    height: 5vh;
 }
 
+/* aliging text next to image */
 .mainphoto{
     display: flex;
     flex-direction: row;
@@ -62,8 +71,10 @@ body{
     overflow: hidden;
     text-overflow: hidden;
     margin-left: 1vw;
+    font-size: 25px;
 }
 
+/* description */
 ul {
     list-style-type: none;
     margin: 0;
@@ -71,37 +82,48 @@ ul {
     overflow: hidden;
     text-align: left;
     margin-left: 17px;
+    font-size: 25px;
     
 }
 
+/* sizes */
 .sizes > p{
     text-align: left;
-    margin-left: 1.2vw;
     font-weight: bold;
+    margin-left: 17px;
+    margin-top: 70px;
+    font-size: 25px;
 }
 
 .size-btns{
     margin-left: 0.5vw;
-    padding: 0;
+    padding: 10px;
     background-color: none;
-    color: #37406E;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
  }
 
 .btn-6{
     margin-right: 50px;
     color: #37406E;
+    font-size: 25px;
 }
 
 .btn-8{
     margin-right: 50px;
     color: #37406E;
+    font-size: 25px;
 }
 
 .btn-10{
     margin-right: 50px;
     color: #37406E;
+    font-size: 25px;
 }
 
 .btn-12{
     color: #37406E;
+    font-size: 25px;
 }
