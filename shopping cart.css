@@ -1,0 +1,21 @@
+@import "root_styles.css";
+
+body{
+    font-family: "futura-pt", sans-serif;
+    background-color: #ECEFF1;
+}
+
+.textbox > h1{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+    color: #37406E;
+}
+
+.textbox > p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
