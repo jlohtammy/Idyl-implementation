@@ -5,17 +5,81 @@ body{
     background-color: #ECEFF1;
 }
 
+/* Main title */
 .textbox > h1{
-    font-size: 30px;
+    font-size: 50px;
     justify-content: center;
     text-align: center;
     margin-top: 100px;
-    font-weight: 500;
-    color: #37406E;
+    font-weight: 400;
+    color: var(--colour-dark);
 }
 
-.textbox > p{
+/* Continue shopping */
+.textbox1{
     text-align: center;
     justify-content: center;
-    margin-top: 100px;
+    color: var(--colour-dark);
+    font-weight: 600;
+    margin-top: -20px;
 }
+
+/* Product images */
+.linenTop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.linenTop > p{
+    font-size: 20px;
+}
+
+.prodInfo{
+    margin-left: 400px;
+    margin-top: -7px;
+}
+
+.bolded {
+    font-weight: bold;
+    color: var(--colour-medium);
+}
+
+
+
+/* subtitles */
+.subtitle{
+    display: inline-block;
+    min-width: 72px;
+    color:var(--colour-dark);
+    gap: 900px;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+
+
+/* Line under product, quality and price */
+hr{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+/* product info for linen top */
+.linenInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+
