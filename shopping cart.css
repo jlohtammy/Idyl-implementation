@@ -65,7 +65,7 @@ body{
     color:var(--colour-dark);
     gap: 900px;
     font-size: 18px;
-    margin-left: 300px;
+    margin-left: 400px;
     margin-top: 50px;
 }
 
@@ -128,8 +128,5 @@ hr{
     text-decoration: none;
     margin-left: 1300px;
 }
-
-
-
 
 

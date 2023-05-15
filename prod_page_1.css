@@ -152,11 +152,11 @@ ul {
 .banner{
     background-color: #EAE0D0;
     margin-top: 120px;
-    width: 1000x;
-    height: 150vh;
+    width: 1000vw;
     display: flex;
     flex: wrap;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: 0 40%;
     padding: 100px 30px;
     }
 
@@ -168,6 +168,7 @@ ul {
 .price{ 
     color: #707070; 
 }
+
 
 /* if you liked banner */
 .banner > p{
