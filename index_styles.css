@@ -202,15 +202,21 @@ input[type=text]{
 }
 
 .applyBtn{
-    width: 5vw;
+    width: 100%;
     height: 45px;
     box-sizing: border-box;
     border: none;
     border-radius: 17px;
     background-color: var(--colour-dark);
     color: var(--colour-lightest);
-    font-style: var(--fontheading);
+    font-family: var(--fontheading);
+    font-weight: var(--fontheading-weight);
+    font-style: var(--fontheading-style);
     text-transform: uppercase;
+}
+
+.applyBtn:hover{
+    opacity: 90%;
 }
 
 .info{
