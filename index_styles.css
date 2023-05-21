@@ -54,6 +54,18 @@ nav > ul > li > a:hover{
     font-style: normal;
 }
 
+.megaMenu{
+    background-color: var(--colour-lightest); /*just to make it easier to see in live*/
+    position: absolute;
+    padding-top: 5%;
+}
+
+.megaMenu ul{
+    list-style-type: none;
+}
+
+/* search & side cart section */
+
 header > section{
     display: flex;
     flex-direction: row;
