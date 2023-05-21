@@ -1,5 +1,5 @@
 body{
-    background-color: #F3EBDC;
+    background-color: var(--colour-light);
     font-family: "futura-pt", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -9,9 +9,9 @@ body{
 
 .itemstructure{
     display: flex;
-    margin-top: -17em;
-    margin-bottom: -5em;
-    margin-left: 13em;
+    margin-top: -12em;
+    margin-bottom: -10em;
+    margin-left: 5.7em;
     gap: 25px;
     width: 100vw;
 }
@@ -33,14 +33,14 @@ body{
     flex-direction: column;
     width: 17vw;
     margin-top: -3vh;
-    color: #37406E;
+    color: var(--colour-dark);
 }
 
 
 .textbox > h2{
     font-weight: 500;
     width: 17vw;
-    color:#37406E;
+    color:var(--colour-dark);
     font-size: 40px;
     white-space: nowrap;
     overflow: visible;
@@ -107,43 +107,147 @@ ul {
 
 .btn-6{
     margin-right: 50px;
-    color: #37406E;
+    color: var(--colour-dark);
     font-size: 25px;
     text-decoration: none;
 }
 
 .btn-8{
     margin-right: 50px;
-    color: #37406E;
+    color: var(--colour-dark);
     font-size: 25px;
     text-decoration: none;
 }
 
 .btn-10{
     margin-right: 50px;
-    color: #37406E;
+    color: var(--colour-dark);
     font-size: 25px;
     text-decoration: none;
 }
 
 .btn-12{
-    color: #37406E;
+    color: var(--colour-dark);
     font-size: 25px;
     text-decoration: none;
 }
 
 /* Add to cart btn */
 .add-cart-btn{
-    background-color: #37406E;
-    color: #F3EBDC;
+    background-color: var(--colour-dark);
+    color: var(--colour-light);
     text-decoration: none;
-    padding: 10px 80px;
+    padding: 5px 100px;
     font-size: 30px;
     border: none;
     margin-bottom: 100px;
+    margin-left: 45px;
 }
 
 .btn-container{
     width: 1800px;
     margin-left: 70px;
+}
+
+.banner{
+    background-color: #EAE0D0;
+    margin-top: 120px;
+    width: 1000vw;
+    display: flex;
+    flex: wrap;
+    object-fit: cover;
+    object-position: 0 40%;
+    padding: 100px 30px;
+    }
+
+.bolded{
+    font-weight: bold;
+    color: #707070;
+}
+
+.price{ 
+    color: #707070; 
+}
+
+
+/* if you liked banner */
+.banner > p{
+    text-overflow: clip;
+    display: flexbox;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 500;
+    color: #707070;
+    justify-content: left;
+    white-space: nowrap;
+}
+
+.stack {
+    --space: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stack > *{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.stack > * + *{
+    margin-top: var(--space);
+}
+
+/* newsletter footer */
+footer{
+    background-color: var(--colour-light-cold);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 7vh 10vw;
+    font-family: var(--font-body);
+    color: var(--colour-dark);
+}
+
+.newsLetter{
+    display: flexbox;
+    justify-content: center;
+    width: 65vw;
+    margin: 1em 0 4em 0;
+}
+
+input[type=text]{
+    width: 782px;
+    height: 45px; 
+    padding: 12px 20px; 
+    margin: 15px 15px 8px 0; 
+    box-sizing: border-box;
+    border: 1px solid var(--colour-medium);
+    border-radius: 17px;
+}
+
+.applyBtn{
+    width: 90px;
+    height: 45px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 17px;
+    background-color: var(--colour-dark);
+    color: var(--colour-lightest);
+    font-style: var(--fontheading);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 227px;
+    height: 250px;
+}
+
+.openingHours .contactUs .address{
+    display: flexbox;
+    justify-content: left;
 }
