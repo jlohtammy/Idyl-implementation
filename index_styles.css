@@ -125,7 +125,7 @@ header > section > article > img {
     display: flexbox;
     flex-direction: column;
     width: 30vw;
-    height: 40vh;
+    min-width: 15vw;;
 }
 
 .textbox > h1{
@@ -183,18 +183,16 @@ header > section > article > img {
     padding: 7vh 25vw;
     font-family: var(--font-body);
     color: var(--colour-dark);
-
 }
 
 .newsLetter{
-    display: flexbox;
     justify-content: center;
-    width: 65vw;
+    width: auto;
     margin: 1em 0 4em 0;
 }
 
 input[type=text]{
-    width: 782px;
+    width: 42vw;
     height: 45px; 
     padding: 12px 20px; 
     margin: 15px 15px 8px 0; 
@@ -204,7 +202,7 @@ input[type=text]{
 }
 
 .applyBtn{
-    width: 90px;
+    width: 5vw;
     height: 45px;
     box-sizing: border-box;
     border: none;
@@ -212,19 +210,27 @@ input[type=text]{
     background-color: var(--colour-dark);
     color: var(--colour-lightest);
     font-style: var(--fontheading);
+    text-transform: uppercase;
 }
 
 .info{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    gap: 227px;
-    height: 250px;
-}
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
-.openingHours .contactUs .address{
-    display: flexbox;
-    justify-content: left;
+}
+.contactUs{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-left: 30%;
+}
+.address{
+    margin-top: 7%;
+    margin-left: 18%;
+    word-wrap: none;
+    width: 15vw;
+    line-height: 1.5em;
 
 }
