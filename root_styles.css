@@ -1,5 +1,9 @@
 :root {
     --fontheading: 'futura-pt','Didact Gothic', sans-serif;
+    /* for futura book style */
+    --fontheading-weight: 500;
+    --fontheading-style: normal;
+
     --font-body: 'futura-pt', 'Didact Gothic', sans-serif;
     --font-special: 'ivypresto-display', serif;
     --font-size-body: 1.2em;
