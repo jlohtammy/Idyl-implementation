@@ -1,0 +1,16 @@
+:root {
+    --fontheading: 'futura-pt','Didact Gothic', sans-serif;
+    /* for futura book style */
+    --fontheading-weight: 500;
+    --fontheading-style: normal;
+
+    --font-body: 'futura-pt', 'Didact Gothic', sans-serif;
+    --font-special: 'ivypresto-display', serif;
+    --font-size-body: 1.2em;
+    --colour-dark: #37406E;
+    --colour-dark2: #704F38;
+    --colour-medium: #707070;
+    --colour-light: #F3EBDC;
+    --colour-lightest: #F8F4ED;
+    --colour-light-cold: #ECEFF1;
+}

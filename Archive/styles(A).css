@@ -1,0 +1,63 @@
+:root {
+    --fontheading: 'Didact Gothic', sans-serif;
+    --font-body: 'Didact Gothic', sans-serif;
+    --colour-dark: #37406E;
+    --colour-medium: #707070;
+}
+
+body {
+    background-color: #F3EBDC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    color: var(--colour-medium);
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;  
+    margin-left: -3.5em;
+    margin-right: -3.5em;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.filterDiv{
+    float: left;
+    background-color:#37406E;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.blue-text{
+    color: #37406E;
+}

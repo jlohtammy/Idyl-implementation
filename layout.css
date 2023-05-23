@@ -1,0 +1,236 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ /* HEADER SECTION */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+nav > ul > li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav > ul > li:hover{
+    cursor: not-allowed;
+}
+
+nav > ul > li > a:hover{
+    /* need to add the extension when hovering */
+    transition: all 0.3s ease 0s;
+    /* so far only bolding the text */
+    font-weight: 700;
+    font-style: normal;
+}
+
+.megaMenu{
+    background-color: var(--colour-lightest); /*just to make it easier to see in live*/
+    position: absolute;
+    padding-top: 5%;
+}
+
+.megaMenu ul{
+    list-style-type: none;
+}
+
+/* search & side cart section */
+
+header > section{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#search > input{
+    visibility: hidden;
+    grid-area: searchInput;
+}
+
+#search > img{
+    scale: 60%;
+}
+header > section > article > img {
+    scale: 60%;
+}
+
+ /* MAIN SECTION */
+
+.bannerImage{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: 0 40%;
+    background-image: none;
+}
+
+.bannerOverlay{
+    font-family: var(--fontheading);
+    color: var(--colour-lightest);
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    text-align: right;
+    font-size: 30px;
+}
+
+.bannerOverlay > p{
+    font-size: var(--font-size-body);
+    margin-top: 1%;
+    font-weight: lighter;
+}
+
+.bannerOverlay > .btn{
+    font-size: var(--font-size-body);
+    margin-top: 1%;
+    font-weight: normal;
+    color: var(--colour-lightest);
+}
+
+.btn :visited{
+    color: var(--colour-medium);
+}
+
+.values{
+    background-color: var(--colour-lightest);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding: 7vw;
+    font-family: var(--font-body);
+    color: var(--colour-dark2);
+}
+
+.textbox {
+    display: flexbox;
+    flex-direction: column;
+    width: 30vw;
+    min-width: 15vw;;
+}
+
+.textbox > h1{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.values > img{
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0 40%;
+}
+
+.spotlight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--colour-light);
+    padding: 7%;
+}
+
+.classicsText{
+    display: flexbox;
+    flex-direction: column;
+    width: 20vw;
+    margin: 50px 40px 0 31px;
+    color: var(--colour-dark2);
+    font-family: var(--font-body);
+}
+
+.classicsText > .btn{
+    font-size: var(--font-size-body);
+    margin-top: 1%;
+    font-weight: normal;
+    color: var(--colour-dark2);
+}
+
+.spotlight > img{
+    width: 20vw;
+    height: 28vw;
+    object-fit: cover;
+    margin: 10px;
+}
+
+ /* FOOTER SECTION */
+
+ footer{
+    background-color: var(--colour-light-cold);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 7vh 25vw;
+    font-family: var(--font-body);
+    color: var(--colour-dark);
+}
+
+.newsLetter{
+    justify-content: center;
+    width: auto;
+    margin: 1em 0 4em 0;
+}
+
+input[type=text]{
+    width: 42vw;
+    height: 45px; 
+    padding: 12px 20px; 
+    margin: 15px 15px 8px 0; 
+    box-sizing: border-box;
+    border: 1px solid var(--colour-medium);
+    border-radius: 17px;
+}
+
+.applyBtn{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 17px;
+    background-color: var(--colour-dark);
+    color: var(--colour-lightest);
+    font-family: var(--fontheading);
+    font-weight: var(--fontheading-weight);
+    font-style: var(--fontheading-style);
+    text-transform: uppercase;
+}
+
+.applyBtn:hover{
+    opacity: 90%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.contactUs{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-left: 30%;
+}
+.address{
+    margin-top: 7%;
+    margin-left: 18%;
+    word-wrap: none;
+    width: 15vw;
+    line-height: 1.5em;
+
+}

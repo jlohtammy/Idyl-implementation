@@ -1,0 +1,34 @@
+:root{ 
+    --fontheading: 'Didact Gothic', sans-serif;
+    --font-body: 'Didact Gothic', sans-serif;
+    --font-family: "futura-pt", sans-serif;
+    --font-special: 'ivypresto-display', serif;
+    --font-size-body: 1.2em;
+    --fontheading: 'futura-pt','Didact Gothic', sans-serif;
+
+    /* for futura book style */
+    --fontheading-weight: 500;
+    --fontheading-style: normal;
+
+    --font-body: 'futura-pt', 'Didact Gothic', sans-serif;
+    --font-special: 'ivypresto-display', serif;
+}
+
+    h1{
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 600;
+    }
+    p {
+        font-size: var(--font-size-body);
+        line-height: 1.6em;
+    }
+    
+    hr{
+        margin-top: 41px;
+        border-top: 1px solid var(--colour-dark2);
+    }
+    
+    nav > ul{
+        font-family: var(--font-special);
+    }

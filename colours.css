@@ -1,0 +1,18 @@
+:root {
+    --colour-dark: #37406E;
+    --colour-medium: #707070;
+    --colour-dark: #37406E;
+    --colour-dark2: #704F38;
+    --colour-medium: #707070;
+    --colour-light: #F3EBDC;
+    --colour-lightest: #F8F4ED;
+    --colour-light-cold: #ECEFF1;
+}
+
+header{
+    background-color: var(--colour-lightest);
+}
+
+nav > ul{
+    color: var(--colour-dark);
+}
