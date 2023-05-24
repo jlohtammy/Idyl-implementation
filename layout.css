@@ -1,0 +1,195 @@
+/* HOME PAGE ROOT */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ /* HOME PAGE HEADER SECTION */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+nav > ul > li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav > ul > li:hover{
+    cursor: not-allowed;
+}
+
+nav > ul > li > a:hover{
+    /* need to add the extension when hovering */
+    transition: all 0.3s ease 0s;
+}
+
+.megaMenu{
+    background-color: var(--colour-lightest); /*just to make it easier to see in live*/
+    position: absolute;
+    padding-top: 5%;
+}
+
+.megaMenu ul{
+    list-style-type: none;
+}
+
+/* search & side cart section */
+
+header > section{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#search > input{
+    visibility: hidden;
+    grid-area: searchInput;
+}
+
+#search > img{
+    scale: 60%;
+}
+header > section > article > img {
+    scale: 60%;
+}
+
+ /* HOME PAGE MAIN SECTION */
+
+.bannerImage{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: 0 40%;
+    background-image: none;
+}
+
+.bannerOverlay{
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    text-align: right;
+}
+
+.bannerOverlay > p{
+    margin-top: 1%;
+}
+
+.bannerOverlay > .btn{
+    margin-top: 1%;
+}
+
+.values{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding: 7vw;
+}
+
+.textbox {
+    display: flexbox;
+    flex-direction: column;
+    width: 30vw;
+    min-width: 15vw;;
+}
+
+.values > img{
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0 40%;
+}
+
+.spotlight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7%;
+}
+
+.classicsText{
+    display: flexbox;
+    flex-direction: column;
+    width: 20vw;
+    margin: 50px 40px 0 31px;
+}
+
+.classicsText > .btn{
+    margin-top: 1%;
+}
+
+.spotlight > img{
+    width: 20vw;
+    height: 28vw;
+    object-fit: cover;
+    margin: 10px;
+}
+
+ /* BLUE FOOTER SECTION */
+
+ footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 7vh 25vw;
+}
+
+.newsLetter{
+    justify-content: center;
+    width: auto;
+    margin: 1em 0 4em 0;
+}
+
+input[type=text]{
+    width: 42vw;
+    height: 45px; 
+    padding: 12px 20px; 
+    margin: 15px 15px 8px 0; 
+    box-sizing: border-box;
+    border: 1px solid var(--colour-medium);
+    border-radius: 17px;
+}
+
+.applyBtn{
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 17px;
+}
+
+.applyBtn:hover{
+    opacity: 90%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.contactUs{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding-left: 30%;
+}
+.address{
+    margin-top: 7%;
+    margin-left: 18%;
+    width: 15vw;
+}

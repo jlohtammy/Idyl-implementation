@@ -1,0 +1,90 @@
+:root{ 
+    --fontheading: 'Didact Gothic', sans-serif;
+    --font-body: 'Didact Gothic', sans-serif;
+    --font-family: "futura-pt", sans-serif;
+    --font-special: 'ivypresto-display', serif;
+    --font-size-body: 1.2em;
+    --fontheading: 'futura-pt','Didact Gothic', sans-serif;
+
+    /* for futura book style */
+    --fontheading-weight: 500;
+    --fontheading-style: normal;
+
+    --font-body: 'futura-pt', 'Didact Gothic', sans-serif;
+    --font-special: 'ivypresto-display', serif;
+}
+
+/* HOMEPAGE */
+    h1{
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 600;
+    }
+    p {
+        font-size: var(--font-size-body);
+        line-height: 1.6em;
+    }
+    
+    hr{
+        margin-top: 41px;
+        border-top: 1px solid var(--colour-dark2);
+    }
+    
+    nav > ul{
+        font-family: var(--font-special);
+    }
+
+    nav > ul > li > a:hover{
+        /* so far only bolding the text */
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .bannerOverlay{
+        font-family: var(--fontheading);
+        font-size: 30px;
+    }
+
+    .bannerOverlay > p{
+        font-size: var(--font-size-body);
+        font-weight: lighter;
+    }
+
+    .bannerOverlay > .btn{
+        font-size: var(--font-size-body);
+        font-weight: normal;
+    }
+    
+    .values{
+        font-family: var(--font-body);
+    }
+
+    .textbox > h1{
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+
+    .classicsText{
+        font-family: var(--font-body);
+    }
+
+    .classicsText > .btn{
+        font-size: var(--font-size-body);
+        font-weight: normal;
+    }
+
+    footer{
+        font-family: var(--font-body);
+    }
+
+.applyBtn{
+    font-family: var(--fontheading);
+    font-weight: var(--fontheading-weight);
+    font-style: var(--fontheading-style);
+    text-transform: uppercase;
+}
+
+.address{
+    word-wrap: none;
+    line-height: 1.5em;
+}

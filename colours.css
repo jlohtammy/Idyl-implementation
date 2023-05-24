@@ -1,0 +1,63 @@
+:root {
+    --colour-dark: #37406E;
+    --colour-medium: #707070;
+    --colour-dark: #37406E;
+    --colour-dark2: #704F38;
+    --colour-medium: #707070;
+    --colour-light: #F3EBDC;
+    --colour-lightest: #F8F4ED;
+    --colour-light-cold: #ECEFF1;
+}
+
+/* HOMEPAGE */
+header{
+    background-color: var(--colour-lightest);
+}
+
+nav > ul{
+    color: var(--colour-dark);
+}
+
+.megaMenu{
+    background-color: var(--colour-lightest); /*just to make it easier to see in live*/
+}
+
+.bannerOverlay{
+    color: var(--colour-lightest);
+}
+
+.bannerOverlay > .btn{
+    color: var(--colour-lightest);
+}
+
+.btn :visited{
+    color: var(--colour-medium);
+}
+
+.values{
+    background-color: var(--colour-lightest);
+    color: var(--colour-dark2);
+}
+
+.spotlight {
+    background-color: var(--colour-light);
+}
+
+.classicsText{
+    color: var(--colour-dark2);
+}
+
+.classicsText > .btn{
+    color: var(--colour-dark2);
+}
+
+footer{
+    background-color: var(--colour-light-cold);
+    color: var(--colour-dark);
+}
+
+
+.applyBtn{
+    background-color: var(--colour-dark);
+    color: var(--colour-lightest);
+}
