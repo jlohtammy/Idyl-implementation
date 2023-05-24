@@ -67,3 +67,21 @@ body{
     background-color: #F3EBDC;
     color: var(--colour-medium);
 }
+
+.filterDiv{
+    background-color:#37406E;
+}
+
+.blue-text{
+    color: #37406E;
+}
+
+.myselect{
+    color: #37406E;
+    background-color: transparent;
+}
+
+.myselect2{
+    color:#37406E;
+    background-color: transparent;
+}

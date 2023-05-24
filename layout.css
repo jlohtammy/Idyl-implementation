@@ -206,14 +206,60 @@ input[type=text]{
     }
 
     /* FLEX BOX FOR CONTENT */
-.layout {
+    .layout {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 5em;  
+    margin-top: 10em;  
     margin-left: -3.5em;
     margin-right: -3.5em;
     align-items: center;
     justify-content: center;
     row-gap: 20px;
     object-fit: cover;
+    gap: 60px;
+}
+
+/* FILTER AND SORT BUTTONS */
+.filterDiv{
+    float: left;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.myselect{
+    top: 27%;
+    left: 10%;
+    position: absolute;
+    background-color: transparent;
+}
+
+.myselect2{
+    top: 27%;
+    left: 18%;
+    position: absolute;
+    background-color: transparent;
+}
+
+/* Product page 1 */
+
+.itemstructure{
+    display: flex;
+    flex-direction: row;
+    margin-top: -11em;
+    margin-bottom: -10em;
+    margin-left: 5.7em;
+    gap: 25px;
+    width: 100vw;
 }
