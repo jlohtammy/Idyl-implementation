@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: #F3EBDC;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,8 +15,6 @@ body {
     text-align: center;
     margin-top: 5em;
     margin-bottom: 5em;
-    color: var(--colour-medium);
-
 }
 
 /* PRODUCT NAMES */

@@ -193,3 +193,27 @@ input[type=text]{
     margin-left: 18%;
     width: 15vw;
 }
+
+/* PRODUCT LIST */
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5em;
+        margin-bottom: 5em;    
+    }
+
+    /* FLEX BOX FOR CONTENT */
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;  
+    margin-left: -3.5em;
+    margin-right: -3.5em;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    object-fit: cover;
+}

@@ -61,3 +61,9 @@ footer{
     background-color: var(--colour-dark);
     color: var(--colour-lightest);
 }
+
+/* PRODUCT LIST */
+body{
+    background-color: #F3EBDC;
+    color: var(--colour-medium);
+}
