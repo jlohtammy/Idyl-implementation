@@ -307,33 +307,38 @@ input[type=text]{
 .textbox{
     display: flex;
     flex-direction: column;
-    width: 17vw;
-    top: 3%;
-    margin-left: 2em;
+    width: 10vw;
+    height: 60vh;
     color: var(--colour-dark);
 }
 
-.textbox > p{
-    font-size: 30px;
+.description > p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: -74%;
+}
+
+.description{
+    width: 40vw;
+    margin-left: 28%;
 }
 
 
 .textbox > h2{
     font-weight: 500;
-    width: 17vw;
-    color:var(--colour-dark);
-    font-size: 40px;
+    color: var(--colour-dark);
+    font-size: 2.5rem;
     white-space: nowrap;
     overflow: visible;
     text-overflow: clip;
-    margin-left: 20px;
+    margin-left: 2em;
 }
+
 /* Price */
 .textbox > h3{
     font-weight: 100;
-    margin-left: -10vw;
     font-size: 30px;
-    height: 7vh;
+    height: 10vh;
 }
 
 /* aliging text next to image */
@@ -375,26 +380,25 @@ ul {
     font-weight: bold;
     margin-left: 100px;
     margin-top: 80px;
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 
 .sizeText{ 
-    margin-top: 20px;
-    margin-left: -90px;
-    font-size: 25px;
+    margin-top: 70vh;
+    margin-left: -10vw;
+    font-size: 1.56rem;
     font-weight: 500;
     color: var(--colour-dark);
-    text-overflow: clip;
+    text-align: left;
+    white-space: nowrap;
 }
 
 .sizeBtns{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 26px;
     margin-top: 1em;
     color: var(--colour-dark);
-    font-size: 25px;
+    font-size: 1.56rem;
     text-decoration: none;
     gap: 20%;
  }
