@@ -26,10 +26,6 @@ nav > ul > li{
     margin: 0 30px;
 }
 
-nav > ul > li:hover{
-    cursor: not-allowed;
-}
-
 nav > ul > li > a:hover{
     /* need to add the extension when hovering */
     transition: all 0.3s ease 0s;
