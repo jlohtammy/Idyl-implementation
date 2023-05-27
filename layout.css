@@ -165,7 +165,7 @@ header > section > article > img {
     margin: 1em 0 4em 0;
 }
 
-input[type=text]{
+footer input[type=email]{
     width: 80%;
     height: 45px; 
     padding: 12px 20px; 
@@ -345,7 +345,7 @@ input[type=text]{
     display: flex;
     flex-direction:row;
     align-items: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 input[type=email]{
@@ -364,3 +364,10 @@ input[type=email]{
     opacity: 100%;
     margin-right: 5%;
 }
+
+.newFormType{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
