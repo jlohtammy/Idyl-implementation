@@ -283,11 +283,19 @@ input[type=text]{
     }
 }
 
-.mainImage{
-    margin-top: 50%;
-    /* width: 350px;
-    height: 500px; */
+
+.prodPage1_images{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: -60%;
 }
+
+.smallerImages{
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 
