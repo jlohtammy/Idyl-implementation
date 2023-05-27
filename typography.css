@@ -108,6 +108,46 @@ footer{
 }
 
 /* PRODUCT PAGE */
-.prod-name{
-    font-size: 5vw;
+
+.prodID > h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--colour-dark);
 }
+
+.prodID > h3{
+    font-size: 1.9rem;
+    font-weight: 100;
+    color: var(--colour-dark);
+}
+
+.description{
+   font-size: 1.56rem; 
+   color: var(--colour-dark);
+}
+
+.description > p{
+    font-weight: bold;
+}
+
+.lastBlock{
+    color: var(--colour-dark);
+}
+
+.lastBlock > p{
+    font-size: 1.56rem;
+    font-weight: bold;
+
+}
+
+.sizeBtns{
+    font-size: 1.9rem;
+    color: var(--colour-dark);
+    text-decoration: none;
+}
+
+.add-cart-btn{
+    text-decoration: none;
+    font-size: 30px;
+}
+
