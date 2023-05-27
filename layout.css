@@ -26,16 +26,18 @@ nav > ul > li{
     margin: 0 30px;
 }
 
-nav > ul > li > a:hover{
-    /* need to add the extension when hovering */
-    transition: all 0.3s ease 0s;
+nav > ul > li:hover .megaMenu{
+    visibility: visible;
+    opacity: 1;
 }
 
 .megaMenu{
     background-color: var(--colour-lightest); /*just to make it easier to see in live*/
     position: absolute;
-    padding: 5% 0 5% 0;
+    padding: 5% 0 2% 0;
     width: 100%;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .megaMenu ul{
