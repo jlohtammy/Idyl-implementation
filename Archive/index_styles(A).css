@@ -1,4 +1,4 @@
-@import "root_styles.css";
+@import "root_styles(A).css";
 
 *{
     box-sizing: border-box;
@@ -29,6 +29,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1% 5%;
+    width: 100%;
 }
 
 nav > ul{
@@ -61,8 +62,12 @@ nav > ul > li > a:hover{
     width: 100%;
 }
 
-.megaMenu ul{
+.megaMenu > ul{
     list-style-type: none;
+}
+
+.megaMenu > ul> li{
+    padding-bottom: 1%;
 }
 
 /* search & side cart section */
