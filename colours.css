@@ -86,18 +86,19 @@ body{
 }
 
 /* checkout */
-.checkout{
+.formPart{
     background-color: var(--colour-medium-cold);
 }
 
 input[type=email]{
-    border: 1px solid var(--colour-medium-cold);
+    border: 1px solid var(--colour-medium);
     border-radius: 17px;
 }
 
 .cartPart{
     background-color: var(--colour-light-cold);
 }
+
 
 .imageIcon{
     border-radius: 25%;
