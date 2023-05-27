@@ -13,69 +13,69 @@
     --font-body: 'futura-pt', 'Didact Gothic', sans-serif;
     --font-special: 'ivypresto-display', serif;
 }
+/* PRODUCT LIST*/
+body {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 /* HOMEPAGE */
-    h1{
-        text-transform: uppercase;
-        font-style: normal;
-        font-weight: 600;
-    }
-    p {
-        font-size: var(--font-size-body);
-        line-height: 1.6em;
-    }
-    
-    hr{
-        margin-top: 41px;
-        border-top: 1px solid var(--colour-dark2);
-    }
-    
-    nav > ul{
-        font-family: var(--font-special);
-    }
+h1{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+}
+p {
+    font-size: var(--font-size-body);
+    line-height: 1.6em;
+}
 
-    nav > ul > li > a:hover{
-        /* so far only bolding the text */
-        font-weight: 700;
-        font-style: normal;
-    }
+hr{
+    margin-top: 41px;
+    border-top: 1px solid var(--colour-dark2);
+}
 
-    .bannerOverlay{
-        font-family: var(--fontheading);
-        font-size: 30px;
-    }
+nav > ul{
+    font-family: var(--font-special);
+}
 
-    .bannerOverlay > p{
-        font-size: var(--font-size-body);
-        font-weight: lighter;
-    }
+.bannerOverlay{
+    font-family: var(--fontheading);
+    font-size: 30px;
+}
 
-    .bannerOverlay > .btn{
-        font-size: var(--font-size-body);
-        font-weight: normal;
-    }
-    
-    .values{
-        font-family: var(--font-body);
-    }
+.bannerOverlay > p{
+    font-size: var(--font-size-body);
+    font-weight: lighter;
+}
 
-    .textbox > h1{
-        font-size: 1.4em;
-        font-weight: 600;
-    }
+.bannerOverlay > .btn{
+    font-size: var(--font-size-body);
+    font-weight: normal;
+}
 
-    .classicsText{
-        font-family: var(--font-body);
-    }
+.values{
+    font-family: var(--font-body);
+}
 
-    .classicsText > .btn{
-        font-size: var(--font-size-body);
-        font-weight: normal;
-    }
+.textbox > h1{
+    font-size: 1.4em;
+    font-weight: 600;
+}
 
-    footer{
-        font-family: var(--font-body);
-    }
+.classicsText{
+    font-family: var(--font-body);
+}
+
+.classicsText > .btn{
+    font-size: var(--font-size-body);
+    font-weight: normal;
+}
+
+footer{
+    font-family: var(--font-body);
+}
 
 .applyBtn{
     font-family: var(--fontheading);
@@ -89,13 +89,6 @@
     line-height: 1.5em;
 }
 
-/* PRODUCT LIST*/
-body {
-    font-family: "futura-pt", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align: center;
-}
 
 /* PRODUCT NAMES */
 .bolded {
