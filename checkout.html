@@ -60,9 +60,40 @@
                         <input type="checkbox"> I want to recieve news & updates
                     </section>
                 </section>
-                <section class="deliverMethod">
-
+                <section class="newFormType">
+                    <h1>deliver method</h1>
+                    <input type="radio"> Ship
+                    <br>
+                    <input type="radio"> Pick Up
+                    <p>We do not ship internationally.</p>
                 </section>  
+                <section class="newFormType">
+                    <h1>shipping info</h1>
+                    <section class="formName">
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name*">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name*">
+                    </section>
+                    <input type="text" id="formAddress" name="address" placeholder="Address*">
+                    <section class="addressdetails">
+                        <input type="text" id="city" name="city" placeholder="City/Town*">
+                        <select id="states" name="states">
+                            <option value="" disabled selected>State/Territory</option>
+                            <option value="act">Australian Capital Territory</option>
+                            <option value="nsw">New South Wales</option>
+                            <option value="nt">Northern Territory</option>
+                            <option value="ql">Queensland</option>
+                            <option value="sa">South Australia</option>
+                            <option value="tas">Tasmania</option>
+                            <option value="vic">Victoria</option>
+                            <option value="wa">Western Australia</option>
+                        </select>
+                        <input type="number" id="postcode" name="postcode" placeholder="Postcode*">
+                    </section>
+                    <input type="phone" id="phone" name="phone" placeholder="Phone*">
+                </section>  
+
+
+
             </form>
         </section>
         <section class="cartPart">
@@ -86,6 +117,9 @@
                     </section>
                 </section>
                 <hr>
+                <section class="cartSummary">
+                    
+                </section>
             </section>
         </section>
 
@@ -94,7 +128,7 @@
     <footer>
         <article class="newsLetter">
             <h1>Join our newsletter!</h1>
-            <input type="text" placeholder="Enter your email...">
+            <input type="email" placeholder="Enter your email...">
             <button class="applyBtn">Apply</button>
         </article>
         <section class = "info">
