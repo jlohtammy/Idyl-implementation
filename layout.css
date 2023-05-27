@@ -205,13 +205,13 @@ input[type=text]{
 }
 
 /* PRODUCT LIST */
-    body {
+    /* body {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    } */
 
     /* FLEX BOX FOR CONTENT */
 .layout {
@@ -267,17 +267,15 @@ input[type=text]{
 }
 
 /* Product page 1 */
-/* smaller images */
 
+/* smaller images */
 
 .itemstructure{
     display: flex;
     flex-direction: row;
-    margin-top: -11em;
-    margin-bottom: -10em;
-    margin-left: 5.7em;
-    gap: 1.5%;
-    width: 100vw;
+    margin-top: -8vh;
+    margin-left: -50vw;
+    gap: 10%;
 }
 
 @media screen and (max-width: 400px){
@@ -318,12 +316,12 @@ input[type=text]{
 .description > p{
     font-size: 1.6rem;
     font-weight: bold;
-    margin-left: -74%;
+    margin-left: 2%;
 }
 
 .description{
     width: 40vw;
-    margin-left: 28%;
+    margin-left: 30%;
 }
 
 
@@ -342,6 +340,7 @@ input[type=text]{
     font-weight: 100;
     font-size: 30px;
     height: 10vh;
+    margin-left: 35%;
 }
 
 /* aliging text next to image */
@@ -373,22 +372,15 @@ ul {
     padding: 0;
     overflow: hidden;
     text-align: left;
-    margin-left: 17px;
+    margin-left: 2%;
     font-size: 25px;
 }
 
 /* sizes */
-.sizes > p{    
-    text-align: left;
-    font-weight: bold;
-    margin-left: 100px;
-    margin-top: 80px;
-    font-size: 1.56rem;
-}
 
 .sizeText{ 
     margin-top: 70vh;
-    margin-left: -10vw;
+    margin-left: -9.5vw;
     font-size: 1.56rem;
     font-weight: 500;
     color: var(--colour-dark);
