@@ -36,7 +36,7 @@ hr{
     border-top: 1px solid var(--colour-dark2);
 }
 
-nav > ul{
+nav ul{
     font-family: var(--font-special);
 }
 
