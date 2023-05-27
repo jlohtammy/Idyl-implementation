@@ -215,18 +215,24 @@ input[type=text]{
     margin-right: -3.5em;
     align-items: center;
     justify-content: center;
-    row-gap: 20px;
+    row-gap: 20%;
     object-fit: cover;
-    gap: 60px;
+    gap: 4vw;
 }
+
+.item{
+    width: 25vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
 
 /* FILTER AND SORT BUTTONS */
 .filterDiv{
     float: left;
-    width: 100px;
-    line-height: 100px;
+    width: 10vw;
+    line-height: 10vw;
     text-align: center;
-    margin: 2px;
     display: none;
 }
 
@@ -240,19 +246,21 @@ input[type=text]{
 
 .myselect{
     top: 27%;
-    left: 10%;
+    left: 8%;
     position: absolute;
     background-color: transparent;
 }
 
 .myselect2{
     top: 27%;
-    left: 18%;
+    left: 16%;
     position: absolute;
     background-color: transparent;
 }
 
 /* Product page 1 */
+/* smaller images */
+
 
 .itemstructure{
     display: flex;
@@ -260,31 +268,48 @@ input[type=text]{
     margin-top: -11em;
     margin-bottom: -10em;
     margin-left: 5.7em;
-    gap: 25px;
+    gap: 1.5%;
     width: 100vw;
 }
 
-.prod-name{
-    display: flex;
-    flex-direction: column;
-    max-width: 550px;
-    margin-top: 10em;
-    font-size: 5vw;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
+@media screen and (max-width: 400px){
+    .itemstructure {
+        display: none;
+    }
+
+    .mainphoto{
+        display: flex;
+        margin-left: -110%;
+        margin-top: 60%;
+        width: 40%;
+    }
+
+    .textbox{
+        font-size: 1rem;
+        align-items: center;
+    }
+    
 }
 
-.mainphoto > img{
-    margin-left: 91px;
+
+.blue_top{
+    width: 25vw;
+    height: 70vh;
+    margin-left: -40em;
 }
+
 
 .textbox{
     display: flex;
     flex-direction: column;
     width: 17vw;
-    margin-top: -3vh;
+    top: 3%;
+    margin-left: 2em;
     color: var(--colour-dark);
+}
+
+.textbox > p{
+    font-size: 30px;
 }
 
 
@@ -313,6 +338,7 @@ input[type=text]{
     flex-wrap: wrap;
     gap: 2%;
     padding: 8vw;
+    width: 40px;
 }
 
 .textbox > p {
