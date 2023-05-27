@@ -28,7 +28,7 @@ nav > ul > li{
 
 nav > ul > li:hover .megaMenu{
     visibility: visible;
-    opacity: 1;
+    opacity: 100%;
 }
 
 .megaMenu{
@@ -76,7 +76,7 @@ header > section > article > img {
     object-fit: cover;
     object-position: 0 40%;
     background-image: none;
-    opacity: 92%;
+    opacity: 100%;
 }
 
 .bannerOverlay{
