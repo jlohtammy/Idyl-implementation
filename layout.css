@@ -32,7 +32,7 @@ nav > ul > li:hover .megaMenu{
 }
 
 .megaMenu{
-    background-color: var(--colour-lightest); /*just to make it easier to see in live*/
+    background-color: var(--colour-lightest);
     position: absolute;
     padding: 5% 0 2% 0;
     width: 100%;
@@ -54,15 +54,19 @@ header > section{
     display: flex;
     flex-direction: row;
     justify-content: end;
+    align-items: center;
 }
 
-#search > input{
-    visibility: hidden;
-    grid-area: searchInput;
+.search > input{
+    display: none;
 }
 
-#search > img{
+.search > img{
     scale: 60%;
+}
+
+.search:active + #searchInput{
+    display: block;
 }
 header > section > article > img {
     scale: 60%;
