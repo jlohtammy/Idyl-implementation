@@ -321,26 +321,6 @@ footer input[type=email]{
     padding: 5% 0 10% 10%;
 }
 
-.cartPart{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-top: 5%;
-}
-
-.cartOverview{
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-    padding: 0 50px;
-}
-
-.cartItems{
-    display: flex;
-    flex-direction: row;
-    padding-top: 10%;
-}
-
 .crumbs{
     display: flex;
     flex-direction:row;
@@ -362,6 +342,32 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
 }
 
 
+.newFormType{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.cartPart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+}
+
+.cartOverview{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 0 50px;
+}
+
+.cartItems{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+}
+
 .imageIcon{
     width: 100px;
     height: 100px;
@@ -370,10 +376,4 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
     opacity: 100%;
     margin-right: 5%;
     border-radius: 25%;
-}
-
-.newFormType{
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
 }
