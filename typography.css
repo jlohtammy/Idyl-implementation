@@ -88,3 +88,28 @@
     word-wrap: none;
     line-height: 1.5em;
 }
+
+/* PRODUCT LIST*/
+body {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+/* PRODUCT NAMES */
+.bolded {
+    font-weight: bold;
+}
+
+.blue-text{
+    font-weight: 400;
+}
+
+.myselect{
+    font-size: 19px;
+}
+
+.myselect2{
+    font-size: 19px;
+}
