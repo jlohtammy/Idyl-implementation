@@ -338,7 +338,7 @@ input[type=text]{
 .cartItems{
     display: flex;
     flex-direction: row;
-    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 .crumbs{
@@ -362,4 +362,5 @@ input[type=email]{
     object-fit: cover;
     background-image: none;
     opacity: 100%;
+    margin-right: 5%;
 }
