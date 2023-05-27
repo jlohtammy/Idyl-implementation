@@ -64,7 +64,7 @@ footer{
 
 /* PRODUCT LIST */
 body{
-    background-color: #F3EBDC;
+    background-color: var(--colour-light);
     color: var(--colour-medium);
 }
 
