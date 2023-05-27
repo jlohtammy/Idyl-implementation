@@ -139,14 +139,14 @@ header > section > article > img {
     color: var(--colour-dark2);
 }
 
-.textbox {
+.valuesTextbox {
     display: flexbox;
     flex-direction: column;
     width: 30vw;
     min-width: 15vw;;
 }
 
-.textbox > h1{
+.valuesTextbox > h1{
     font-size: 1.4em;
     font-weight: 600;
 }

@@ -59,7 +59,7 @@ nav > ul{
     font-family: var(--font-body);
 }
 
-.textbox > h1{
+.valuesTextbox > h1{
     font-size: 1.4em;
     font-weight: 600;
 }

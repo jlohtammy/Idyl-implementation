@@ -12,12 +12,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     padding: 1% 5%;
     width: 100%;
-=======
     padding: 1% 18%;
->>>>>>> 42493cb71b5ff6ecaaaacedd82d74682f8e619fe
 }
 
 nav > ul{
@@ -107,7 +104,7 @@ header > section > article > img {
     padding: 7vw;
 }
 
-.textbox {
+.valuesTextbox {
     display: flexbox;
     flex-direction: column;
     width: 30vw;
