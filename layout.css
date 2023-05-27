@@ -377,3 +377,15 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
     margin-right: 5%;
     border-radius: 25%;
 }
+
+.subtotal, .shippingPrice, .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.subtotal{
+    padding-top: 50px;
+
+}
