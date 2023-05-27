@@ -40,6 +40,11 @@ nav > ul{
     font-family: var(--font-special);
 }
 
+nav ul li a {
+    color: var(--colour-dark);
+    text-decoration: none;
+}
+
 .bannerOverlay{
     font-family: var(--fontheading);
     font-size: 30px;
