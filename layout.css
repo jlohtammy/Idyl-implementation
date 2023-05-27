@@ -104,7 +104,7 @@ header > section > article > img {
     padding: 7vw;
 }
 
-.textbox {
+.valuesTextbox {
     display: flexbox;
     flex-direction: column;
     width: 30vw;
