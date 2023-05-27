@@ -62,9 +62,10 @@
                 </section>
                 <section class="newFormType">
                     <h1>deliver method</h1>
-                    <input type="radio"> Ship
-                    <br>
-                    <input type="radio"> Pick Up
+                    <input type="radio" id="ship" name="delivery" value="ship">
+                    <label for="ship">Ship</label>
+                    <input type="radio" id="pickup" name="delivery" value="pickup"> 
+                    <label for="pickup">Pick Up</label>
                     <p>We do not ship internationally.</p>
                 </section>  
                 <section class="newFormType">
@@ -124,17 +125,20 @@
                         <button class="applyBtn">Apply</button>
                     </section>
                     <section class="subtotal">
-                        <h2>subtotal</h2>
-                        <h2>$318.00</h2>
+                        <h1>subtotal</h1>
+                        <h1>$318.00</h1>
                     </section>
                     <section class="shippingPrice">
-                        <h2>shipping</h2>
-                        <h2>$30.00</h2>
+                        <h1>shipping</h1>
+                        <h1>$30.00</h1>
                     </section>
                     <section class="total">
                         <h1>total</h1>
-                        <h1 id="totalPrice">$380.54</h1>
-                        <p>including $32.54 in taxes</p>
+                        <secttion class="totalPrice">
+                            <h1>$380.54</h1>
+                            <p>including $32.54 in taxes</p>
+                        </secttion>
+                        
                     </section>
                 </section>
             </section>
