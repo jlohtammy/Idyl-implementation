@@ -12,7 +12,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+    padding: 1% 5%;
+    width: 100%;
+=======
     padding: 1% 18%;
+>>>>>>> 42493cb71b5ff6ecaaaacedd82d74682f8e619fe
 }
 
 nav > ul{
@@ -36,11 +41,16 @@ nav > ul > li > a:hover{
 .megaMenu{
     background-color: var(--colour-lightest); /*just to make it easier to see in live*/
     position: absolute;
-    padding-top: 5%;
+    padding: 5% 0 5% 0;
+    width: 100%;
 }
 
 .megaMenu ul{
     list-style-type: none;
+}
+
+.megaMenu > ul> li{
+    padding-bottom: 1%;
 }
 
 /* search & side cart section */
@@ -154,17 +164,17 @@ header > section > article > img {
 }
 
 input[type=text]{
-    width: 42vw;
+    width: 80%;
     height: 45px; 
     padding: 12px 20px; 
-    margin: 15px 15px 8px 0; 
+    margin: 3% 0 20% 0; 
     box-sizing: border-box;
     border: 1px solid var(--colour-medium);
     border-radius: 17px;
 }
 
 .applyBtn{
-    width: 100%;
+    width: 15%;
     height: 45px;
     box-sizing: border-box;
     border: none;
@@ -180,18 +190,18 @@ input[type=text]{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-
 }
 .contactUs{
     display: flex;
     flex-direction: row;
     width: auto;
-    padding-left: 30%;
+    padding-left: 20%;
 }
 .address{
     margin-top: 7%;
     margin-left: 18%;
     width: 15vw;
+    height: auto;
 }
 
 /* PRODUCT LIST */
@@ -201,12 +211,10 @@ input[type=text]{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 5em;
-        margin-bottom: 5em;    
     }
 
     /* FLEX BOX FOR CONTENT */
-    .layout {
+.layout {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
