@@ -41,7 +41,114 @@
             </article>
         </section>
     </header>
-    
+
+    <main class="divide">
+        <section class="formPart">
+            <section class="crumbs">
+                <a href="shopping_cart.html"> cart </a>
+                <p> > </p>
+                <a href="checkout.html">information</a>
+                <p> > </p>
+                <a href="#" class="currentCrumb">payment & billing</a>
+            </section>
+            <form>
+                <section class="contact">
+                    <h1>contact</h1>
+                    <input type="email" id="email" name="email" placeholder="Enter your email...">
+                    <section class="checkContainer">
+                        <input type="checkbox"> I want to recieve news & updates
+                    </section>
+                </section>
+                <section class="newFormType">
+                    <h1>deliver method</h1>
+                    <div>
+                        <section class="radioBox1">
+                            <input type="radio" id="ship" name="delivery" value="ship">
+                            <label for="ship">Ship</label>
+                        </section>
+                        <section class="radioBox2">
+                            <input type="radio" id="pickup" name="delivery" value="pickup"> 
+                            <label for="pickup">Pick Up</label>
+                        </section>                        
+                    </div>
+                    <p>We do not ship internationally.</p>
+                </section>  
+                <section class="newFormType">
+                    <h1>shipping info</h1>
+                    <section class="formName">
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name*">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name*">
+                    </section>
+                    <input type="text" id="formAddress" name="address" placeholder="Address*">
+                    <section class="addressDetails">
+                        <input type="text" id="city" name="city" placeholder="City/Town*">
+                        <select id="states" name="states">
+                            <option value="" disabled selected>State/Territory</option>
+                            <option value="act">Australian Capital Territory</option>
+                            <option value="nsw">New South Wales</option>
+                            <option value="nt">Northern Territory</option>
+                            <option value="ql">Queensland</option>
+                            <option value="sa">South Australia</option>
+                            <option value="tas">Tasmania</option>
+                            <option value="vic">Victoria</option>
+                            <option value="wa">Western Australia</option>
+                        </select>
+                        <input type="number" id="postcode" name="postcode" placeholder="Postcode*">
+                    </section>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone*">
+                </section>  
+                <a href="checkout_payment.html">
+                    <button>continue to payment</button>
+                </a>
+            </form>
+        </section>
+
+        <section class="cartPart">
+            <section class = "cartOverview">
+                <h1>your cart</h1>
+                <section class="cartItems">
+                    <img class='imageIcon'src="Assets/second_shot.jpg" alt="colourful linen top">
+                    <section class="productInfo">
+                        <h1>linen & cotton summer top</h1>
+                        <h1>$169.00</h1>
+                        <p>Size 10</p>
+                    </section>
+                    
+                </section>
+                <section class="cartItems">
+                    <img class='imageIcon' src="Assets/idyl_top.jpg" alt="colourful linen top">
+                    <section class="productInfo">
+                        <h1>linen & cotton summer top</h1>
+                        <h1>$169.00</h1>
+                        <p>Size 10</p>
+                    </section>
+                </section>
+                <hr>
+                <section class="cartSummary">
+                    <section class="giftCard">
+                        <input type="tel" id="giftCode" name="giftCode" placeholder="Gift Card or Discount Code">
+                        <button class="applyBtn">Apply</button>
+                    </section>
+                    <section class="subtotal">
+                        <h1>subtotal</h1>
+                        <h1>$318.00</h1>
+                    </section>
+                    <section class="shippingPrice">
+                        <h1>shipping</h1>
+                        <h1>$30.00</h1>
+                    </section>
+                    <section class="total">
+                        <h1>total</h1>
+                        <section class="totalPrice">
+                            <h1>$380.54</h1>
+                            <p>including $32.54 in taxes</p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+    </main>
     <footer>
         <article class="newsLetter">
             <h1>Join our newsletter!</h1>
