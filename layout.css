@@ -329,11 +329,10 @@ footer input[type=email]{
 }
 
 input[type=email], input[type=text],input[type=number], input[type=tel]{
-    width: 80%;
+    width: 70%;
     height: 45px; 
     padding: 12px 20px; 
-    margin-top:3%;
-    margin-bottom: 2%; 
+    margin:3% 1% 2% 0;
     border-radius: 17px;
 }
 
@@ -388,4 +387,25 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
 .subtotal{
     padding-top: 50px;
 
+}
+
+.radioBox1, .radioBox2{
+    width: 70%;
+    height: 45px;
+    padding: 1% 2%;
+}
+
+.radioBox1{
+    border-radius: 17px 17px 0 0;
+    margin-top: 3%;
+}
+
+.radioBox2{
+    border-radius: 0 0 17px 17px;
+}
+
+
+
+input[type=radio] {
+    padding-bottom: 500px;
 }

@@ -92,9 +92,16 @@ body{
 
 input[type=email], input[type=text], input[type=number], input[type=tel]{
     border: 1px solid var(--colour-medium);
+    color: var(--colour-dark);
 }
 
 
 .cartPart{
     background-color: var(--colour-light-cold);
+}
+
+.radioBox1, .radioBox2{
+    background-color: white;
+    border: 1px solid var(--colour-medium);
+    color: var(--colour-dark);
 }

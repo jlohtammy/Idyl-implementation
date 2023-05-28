@@ -120,3 +120,11 @@ footer{
 .totalPrice{
     text-align: right;
 }
+
+.radioBox1, .radioBox2{
+    font-size: var(--font-size-body);
+}
+
+input[type=text], input[type=email], input[type=number], input[type=tel]{
+    font-size: var(--font-body);
+}
