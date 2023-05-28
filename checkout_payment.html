@@ -52,11 +52,21 @@
                 <a href="#" class="currentCrumb">payment & billing</a>
             </section>
             <form>
-                <section class="contact">
-                    <h1>contact</h1>
-                    <input type="email" id="email" name="email" placeholder="Enter your email...">
-                    <section class="checkContainer">
-                        <input type="checkbox"> I want to recieve news & updates
+                <section class="newFormType">
+                    <h1>Payment info</h1>
+                    <label for="cardName">Name on Card</label>
+                    <input type="text" id="cardName" name="cardName">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="number" id="cardNumber" name="cardNumber">                    
+                    <section class="flexRow">
+                        <div class="flexCol">
+                            <label for="expDate">Exp. Date</label>
+                            <input type="text" id="expDate" name="expDate" placeholder="MM/YY">
+                        </div>
+                        <div class="flexCol">
+                            <label for="cvv">CVV</label>
+                            <input type="number" id="cvv" name="cvv">
+                        </div>
                     </section>
                 </section>
                 <section class="newFormType">
@@ -73,7 +83,7 @@
                     </div>
                 </section>  
                 <section class="newFormType">
-                    <h1>shipping info</h1>
+                    <h1>billing address</h1>
                     <section class="formName">
                         <input type="text" id="firstName" name="firstName" placeholder="First Name*">
                         <input type="text" id="lastName" name="lastName" placeholder="Last Name*">
@@ -112,7 +122,6 @@
                         <h1>$169.00</h1>
                         <p>Size 10</p>
                     </section>
-                    
                 </section>
                 <section class="cartItems">
                     <img class='imageIcon' src="Assets/idyl_top.jpg" alt="colourful linen top">
