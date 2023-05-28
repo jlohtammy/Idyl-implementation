@@ -412,3 +412,22 @@ input[type=radio] {
 .giftCard .applyBtn{
     width: 27.8%;
 }
+
+#cardName, #cardNumber, #expDate, #cvv{
+    margin-top: 0;
+    width: 70%;;
+}
+
+.h1TopPad{
+    margin-bottom: 3%;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
