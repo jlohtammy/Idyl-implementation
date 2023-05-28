@@ -325,7 +325,7 @@ footer input[type=email]{
     display: flex;
     flex-direction:row;
     align-items: center;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 
 input[type=email], input[type=text],input[type=number], input[type=tel]{
