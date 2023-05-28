@@ -86,6 +86,10 @@ body{
 }
 
 /* checkout */
+.checkout{
+    background-color: var(--colour-lightest);
+}
+
 .formPart{
     background-color: var(--colour-medium-cold);
 }
@@ -103,5 +107,9 @@ input[type=email], input[type=text], input[type=number], input[type=tel]{
 .radioBox1, .radioBox2{
     background-color: white;
     border: 1px solid var(--colour-medium);
+    color: var(--colour-dark);
+}
+
+.crumbs a{
     color: var(--colour-dark);
 }

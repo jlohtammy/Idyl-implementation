@@ -317,7 +317,7 @@ footer input[type=email]{
 .formPart{
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 65vw;
     padding: 5% 0 10% 10%;
 }
 
@@ -337,9 +337,8 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
 }
 
 .addressDetails input[type=text], input[type=number]{
-    width: 30%;
+    width: 25%;
 }
-
 
 .newFormType{
     display: flex;
@@ -348,8 +347,10 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
 }
 
 .cartPart{
+    width: 35vw;
     display: flex;
     flex-direction: column;
+    justify-self: center;
     flex-wrap: nowrap;
     padding-top: 5%;
 }
@@ -404,8 +405,10 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
     border-radius: 0 0 17px 17px;
 }
 
-
-
 input[type=radio] {
     padding-bottom: 500px;
+}
+
+.giftCard .applyBtn{
+    width: 27.8%;
 }

@@ -128,3 +128,17 @@ footer{
 input[type=text], input[type=email], input[type=number], input[type=tel]{
     font-size: var(--font-body);
 }
+
+.crumbs a{
+    text-decoration: none;
+    padding: 0 1%;
+}
+
+.currentCrumb{
+    font-weight: 500;
+}
+
+a.disabled{
+    pointer-events: none;
+    cursor: default;
+}
