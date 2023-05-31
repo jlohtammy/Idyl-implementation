@@ -14,7 +14,7 @@ header{
     align-items: center;
     padding: 1% 5%;
     width: 100%;
-    padding: 1% 7%;
+    padding: 1% 10%;
     position: fixed;
     top: 0;
 }
@@ -24,7 +24,9 @@ nav > ul{
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    width: 500px;
+    width: 700px;
+    min-width: auto;
+    flex-wrap: nowrap;
 }
 
 
