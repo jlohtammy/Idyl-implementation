@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hyj6lts.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ojd2aku.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ojd2aku.css">
+    <title>IDYL checkout</title>
+</head>
+<body class="checkout">
+    <header>
+        <a href="index.html"><img id="logo" src="Assets/IDYLlogo.svg" alt="IDYL logo"></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">clothing</a>
+                    <section class="megaMenu">
+                        <ul>
+                            <li><a href="prod_list.html">Tops & Tshirts</a></li>
+                            <li>Jackets</li>
+                            <li>Pants</li>
+                        </ul>
+                    </section>
+                </li>
+                <li>accessories</li>
+                <li>news</li>
+                <li>sale</li>
+                <li>gift cards</li>
+            </ul>
+        </nav>
+        <section>
+            <article class="search">
+                <input id = "searchInput" type="search">
+                <img class = "search"src="Assets/search_icon.svg" alt="search icon">
+            </article>
+            <article id="cart">
+                <img src="Assets/cart_icon.svg" alt="shopping cart icon">
+            </article>
+        </section>
+    </header>
+
+    <main class="divide">
+        <section class="formPart">
+            <section class="crumbs">
+                <a href="shopping_cart.html"> cart </a>
+                <p> > </p>
+                <a href="checkout.html">information</a>
+                <p> > </p>
+                <a href="#" class="currentCrumb">payment & billing</a>
+            </section>
+            <form>
+                <section class="newFormType">
+                    <h1>Payment info</h1>
+                    <label for="cardName">Name on Card</label>
+                    <input type="text" id="cardName" name="cardName">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="number" id="cardNumber" name="cardNumber">                    
+                    <section class="flexRow">
+                        <div class="flexCol">
+                            <label for="expDate">Exp. Date</label>
+                            <input type="text" id="expDate" name="expDate" placeholder="MM/YY">
+                        </div>
+                        <div class="flexCol">
+                            <label for="cvv">CVV</label>
+                            <input type="number" id="cvv" name="cvv">
+                        </div>
+                    </section>
+                </section>
+                <section class="newFormType">
+                    <h1>billing</h1>
+                    <div>
+                        <section class="radioBox1">
+                            <input type="radio" id="shippingInfo" name="billing" value="shippingInfo">
+                            <label for="shippingInfo">Same as Shipping</label>
+                        </section>
+                        <section class="radioBox2">
+                            <input type="radio" id="differentShipping" name="billing" value="differentShipping"> 
+                            <label for="differentShipping">Use Different</label>
+                        </section>                        
+                    </div>
+                </section>  
+                <section class="newFormType">
+                    <h1>billing address</h1>
+                    <section class="formName">
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name*">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name*">
+                    </section>
+                    <input type="text" id="formAddress" name="address" placeholder="Address*">
+                    <section class="addressDetails">
+                        <input type="text" id="city" name="city" placeholder="City/Town*">
+                        <select id="states" name="states">
+                            <option value="" disabled selected>State/Territory</option>
+                            <option value="act">Australian Capital Territory</option>
+                            <option value="nsw">New South Wales</option>
+                            <option value="nt">Northern Territory</option>
+                            <option value="ql">Queensland</option>
+                            <option value="sa">South Australia</option>
+                            <option value="tas">Tasmania</option>
+                            <option value="vic">Victoria</option>
+                            <option value="wa">Western Australia</option>
+                        </select>
+                        <input type="number" id="postcode" name="postcode" placeholder="Postcode*">
+                    </section>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone*">
+                </section>  
+                <a href="checkout_payment.html">
+                    <button>continue to payment</button>
+                </a>
+            </form>
+        </section>
+
+        <section class="cartPart">
+            <section class = "cartOverview">
+                <h1>your cart</h1>
+                <section class="cartItems">
+                    <img class='imageIcon'src="Assets/second_shot.jpg" alt="colourful linen top">
+                    <section class="productInfo">
+                        <h1>linen & cotton summer top</h1>
+                        <h1>$169.00</h1>
+                        <p>Size 10</p>
+                    </section>
+                </section>
+                <section class="cartItems">
+                    <img class='imageIcon' src="Assets/idyl_top.jpg" alt="colourful linen top">
+                    <section class="productInfo">
+                        <h1>linen & cotton summer top</h1>
+                        <h1>$169.00</h1>
+                        <p>Size 10</p>
+                    </section>
+                </section>
+                <hr>
+                <section class="cartSummary">
+                    <section class="giftCard">
+                        <input type="tel" id="giftCode" name="giftCode" placeholder="Gift Card or Discount Code">
+                        <button class="applyBtn">Apply</button>
+                    </section>
+                    <section class="subtotal">
+                        <h1>subtotal</h1>
+                        <h1>$318.00</h1>
+                    </section>
+                    <section class="shippingPrice">
+                        <h1>shipping</h1>
+                        <h1>$30.00</h1>
+                    </section>
+                    <section class="total">
+                        <h1>total</h1>
+                        <section class="totalPrice">
+                            <h1>$380.54</h1>
+                            <p>including $32.54 in taxes</p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+    </main>
+    <footer>
+        <article class="newsLetter">
+            <h1>Join our newsletter!</h1>
+            <input type="email" placeholder="Enter your email...">
+            <button class="applyBtn">Apply</button>
+        </article>
+        <section class = "info">
+            <article class="openingHours">
+                <section class="openingHours">
+                    <h1>Opening hours</h1>
+                    <p>Monday - Saturday</p>
+                    <b>10am to 4pm</b>
+                    <p>Sunday</p>
+                    <b>11am to 3pm</b>
+                </section>
+            </article>
+            <article class="contactUs">
+                <section class="phoneEmail">
+                    <h1>Contact us</h1>
+                    <p>Phone</p>
+                    <b>03 9247 3473</b>
+                    <p>Email</p>
+                    <b>info@idyl.com.au</b>
+                </section>  
+                <section class="address">
+                    <p>Address</p>
+                    <b>388 Lygon Street</b> 
+                    <br>
+                    <b>Carlton, VIC 3053</b> 
+                    <br>
+                    <b>Australia</b>
+                </section>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+        <br>
+        <p class="ownersNote">Keep in mind we are a small family business, therefore we might close early at times. Therefore, please ring ahead if you plan to visit during our last hour of trade. </p>
+        <br>
+        <section id="socials">
+            <a href="https://www.facebook.com/idylclothing/"><img src="Assets/facebook_icon.svg" alt="Facebook icon"></a>
+            <a href="https://www.instagram.com/idylclothing/"><img src="Assets/insta_icon.svg" alt="Instagram icon"></a>
+        </section>
+    </footer>
+</body>
+</html>

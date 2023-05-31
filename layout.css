@@ -14,28 +14,34 @@ header{
     align-items: center;
     padding: 1% 5%;
     width: 100%;
-    padding: 1% 18%;
+    padding: 1% 10%;
+    position: fixed;
+    top: 0;
 }
 
 nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style: none;
+    width: 700px;
+    min-width: auto;
+    flex-wrap: nowrap;
 }
 
-nav > ul > li{
-    display: inline-block;
-    margin: 0 30px;
-}
 
-nav > ul > li > a:hover{
-    /* need to add the extension when hovering */
-    transition: all 0.3s ease 0s;
+nav > ul > li:hover .megaMenu{
+    visibility: visible;
+    opacity: 100%;
 }
 
 .megaMenu{
-    background-color: var(--colour-lightest); /*just to make it easier to see in live*/
+    background-color: var(--colour-lightest);
     position: absolute;
-    padding: 5% 0 5% 0;
+    padding: 5% 0 2% 0;
     width: 100%;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .megaMenu ul{
@@ -52,15 +58,19 @@ header > section{
     display: flex;
     flex-direction: row;
     justify-content: end;
+    align-items: center;
 }
 
-#search > input{
-    visibility: hidden;
-    grid-area: searchInput;
+.search > input{
+    display: none;
 }
 
-#search > img{
+.search > img{
     scale: 60%;
+}
+
+.search:active + #searchInput{
+    display: block;
 }
 header > section > article > img {
     scale: 60%;
@@ -74,6 +84,7 @@ header > section > article > img {
     object-fit: cover;
     object-position: 0 40%;
     background-image: none;
+    opacity: 100%;
 }
 
 .bannerOverlay{
@@ -156,7 +167,7 @@ header > section > article > img {
     margin: 1em 0 4em 0;
 }
 
-input[type=text]{
+footer input[type=email]{
     width: 80%;
     height: 45px; 
     padding: 12px 20px; 
@@ -294,35 +305,14 @@ input[type=text]{
     margin-top: 20%;
 }
 
-.lastBlock{
-    margin-top: 8%;
-}
 
-.sizeBtns{
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    margin-top: 3%;
-}
-.add-cart-btn{
-    position: relative;
-    padding: 5px 100px;
-    top: 45%;
-    width: 100px;
-    height: 50px;
-    border: none;
-}
 
-@media (max-width: 390px) {
-    .smallerImages {
-        display: none;
-    }
-}
 
-.featured{
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    margin-top: 20%;
-    margin-left: -10%;
+
+select.stateSelect{
+    width: 27%;
+    height: 45px; 
+    padding: 12px 20px; 
+    margin:3% 1% 2% 0;
+    border-radius: 17px;
 }

@@ -1,9 +1,8 @@
 :root {
     --colour-dark: #37406E;
-    --colour-medium: #707070;
-    --colour-dark: #37406E;
     --colour-dark2: #704F38;
     --colour-medium: #707070;
+    --colour-medium-cold:#DFE6EC;
     --colour-light: #F3EBDC;
     --colour-lightest: #F8F4ED;
     --colour-light-cold: #ECEFF1;
@@ -84,18 +83,4 @@ body{
 .myselect2{
     color:#37406E;
     background-color: transparent;
-}
-
-/* product page */
-.add-cart-btn{
-background-color: var(--colour-dark);
-}
-
-.add-cart-btn{
-    color: var(--colour-light);
-}
-
-.featured{
-    background-color: var(--colour-dark2);
-    color: var(--colour-light);
 }
