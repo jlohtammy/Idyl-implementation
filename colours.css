@@ -85,3 +85,17 @@ body{
     color:#37406E;
     background-color: transparent;
 }
+
+/* product page */
+.add-cart-btn{
+background-color: var(--colour-dark);
+}
+
+.add-cart-btn{
+    color: var(--colour-light);
+}
+
+.featured{
+    background-color: var(--colour-dark2);
+    color: var(--colour-light);
+}

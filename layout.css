@@ -280,6 +280,7 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     gap: 7%;
+    margin-top: 5%;
 }
 
 .textbox{
@@ -318,4 +319,10 @@ input[type=text]{
     }
 }
 
-
+.featured{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin-top: 20%;
+    margin-left: -10%;
+}
