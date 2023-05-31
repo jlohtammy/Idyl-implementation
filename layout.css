@@ -14,19 +14,19 @@ header{
     align-items: center;
     padding: 1% 5%;
     width: 100%;
-    padding: 1% 18%;
+    padding: 1% 7%;
     position: fixed;
     top: 0;
 }
 
 nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style: none;
+    width: 500px;
 }
 
-nav > ul > li{
-    display: inline-block;
-    margin: 0 30px;
-}
 
 nav > ul > li:hover .megaMenu{
     visibility: visible;
