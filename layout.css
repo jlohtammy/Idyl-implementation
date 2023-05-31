@@ -311,9 +311,13 @@ footer input[type=email]{
     padding: 5px 100px;
     font-size: 30px;
     border: none;
-   
 }
 
+.sizeBtns{
+    display: flex;
+    gap: 10%;
+
+}
 
 
 select.stateSelect{
