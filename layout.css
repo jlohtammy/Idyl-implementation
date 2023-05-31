@@ -272,8 +272,6 @@ footer input[type=email]{
 
 /* Product page 1 */
 
-
-
 .contentContainer{
     display: flex;
     flex-direction: row;
@@ -305,7 +303,16 @@ footer input[type=email]{
     margin-top: 20%;
 }
 
-
+.add-cart-btn{
+    background-color: var(--colour-dark);
+    color: var(--colour-light);
+    margin-left: -1%;
+    text-decoration: none;
+    padding: 5px 100px;
+    font-size: 30px;
+    border: none;
+   
+}
 
 
 
