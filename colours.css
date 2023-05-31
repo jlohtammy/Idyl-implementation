@@ -113,3 +113,12 @@ input[type=email], input[type=text], input[type=number], input[type=tel]{
 .crumbs a{
     color: var(--colour-dark);
 }
+
+.selectDefault{
+    color: var(--colour-medium);
+}
+
+select.stateSelect{
+    color: var(--colour-dark);
+}
+

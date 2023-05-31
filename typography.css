@@ -117,6 +117,7 @@ footer{
     font-size: 5vw;
 }
 
+/* CHECKOUT  */
 .totalPrice{
     text-align: right;
 }
@@ -141,4 +142,8 @@ input[type=text], input[type=email], input[type=number], input[type=tel]{
 a.disabled{
     pointer-events: none;
     cursor: default;
+}
+
+select.stateSelect{
+    font-size: var(--font-size-body) -12;
 }
