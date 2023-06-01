@@ -317,12 +317,22 @@ footer input[type=email]{
 }
 
 .featured{
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    margin-top: 20%;
+    margin-top: 10%;
     gap: 15%;
 }
 
+.container{
+    object-fit: cover;
+    padding: 3% 40%;
+}
+
+.featured_text{
+    margin-left: -8.5vw;
+
+}
 
 
 select.stateSelect{

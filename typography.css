@@ -170,3 +170,7 @@ footer{
 .price{
     text-align: center;
 }
+
+.featured_text{
+    font-weight: bold;
+}
