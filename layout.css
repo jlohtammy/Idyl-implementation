@@ -550,3 +550,11 @@ hr{
     text-align: end;
     margin-right: -50%;
 }
+
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    width: 0vw;
+    margin-right: -17%;
+}
