@@ -486,39 +486,10 @@ hr{
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-
 }
 
 
 /* product info for linen top */
-.linenInfo{
-    display: flex;
-    flex-direction: column;
-
-}
-
-/* total */
-.textboxTwo{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: right;
-    font-size: 30px;
-    margin-right: 200px;
-    color: var(--colour-dark);
-}
-
-.textboxThree {
-    font-size: 20px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin-right: 200px;
-    margin-top: -30px;
-    color: var(--colour-medium);
-}
-
 
 .bold{
     font-weight: bold;
@@ -533,31 +504,49 @@ hr{
     padding: 10px 100px;
     font-size: 30px;
     text-decoration: none;
-    margin-left: 600px;
 }
 
-.quantity{
-    margin-left: 250%;
-}
-
-.priceProd{
-    margin-left: 170%;
-}
-
-
-.firstColumn{
-    display: flex;
-    flex-direction: column;
-    gap: 20%;
-}
-
-.secondColumn{
-    display: flex;
-    flex-direction: column;
-}
 
 .sectionOne{
     display: flex;
     flex-direction: row;
 }
 
+.sectionTwo{
+    display: flex;
+    flex-direction: row;
+    margin-left: -12%;
+}
+
+.linenProdInfo{
+    width: 40vw;
+    margin-left: 20%;
+}
+
+.HiloProdInfo{
+    width: 40vw;
+    margin-left: 20%;
+}
+
+
+.linenQuantity{
+    white-space: nowrap;
+}
+
+.hiloPrice{
+    display: flex;
+    flex-direction: row;
+    margin-right: -11%;
+}
+.hiloQuantity{
+    display: flex;
+    flex-direction: row;
+    margin-right: 13%;
+}
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-right: -50%;
+}
