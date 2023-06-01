@@ -96,3 +96,39 @@ body{
 }
 
 /* SHOPPING CART */
+.pageTitle > h1{
+    color: var(--colour-dark);
+}
+
+.LinenProdInfo{
+    color: var(--colour-medium);
+}
+
+.bolded {
+    color: var(--colour-medium);
+}
+
+.productTitle{
+    color: var(--colour-medium);
+}
+
+.linenQuantity{
+    color: var(--colour-medium);
+}
+
+.hiloQuantity{
+    color: var(--colour-medium);
+}
+
+.linenPrice{
+    color: var(--colour-medium);
+}
+
+.hiloPrice{
+    color: var(--colour-medium);  
+}
+
+.payNow{
+    background-color: var(--colour-dark);
+    color: white;
+}

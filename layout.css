@@ -359,30 +359,18 @@ select.stateSelect{
 
 /* SHOPPING CART */
 .pageTitle > h1{
-    font-size: 50px;
     justify-content: center;
-    text-align: center;
     margin-top: 70px;
-    font-weight: bold;
-    color: var(--colour-dark);
 }
 
 .pageTitle > p{
     justify-content: center;
-    text-align: center;
 }
 .patternedTop{
     margin-left: -10%;
 
 }
-/* Continue shopping */
-.textbox1{
-    text-align: center;
-    justify-content: center;
-    color: var(--colour-dark);
-    font-weight: 600;
-    margin-top: 1%;
-}
+
 
 /* Product images */
 .linenTop{
@@ -404,15 +392,12 @@ select.stateSelect{
 }
 
 .linenTop > p{
-    font-size: 20px;
     gap: 50px;
 }
 
 .LinenProdInfo{
     margin-left: 10%;
     margin-top: 1%;
-    color: var(--colour-medium);
-
 }
 
 .bolded {
@@ -424,7 +409,6 @@ select.stateSelect{
 .HiloProdInfo{
     margin-left: -2%;
     white-space: nowrap;
-    
 }
 
 
@@ -458,7 +442,6 @@ select.stateSelect{
     margin-left: 8%;
     font-weight: 500;
     white-space: nowrap;
-    
 }
 
 /* price*/
@@ -472,9 +455,7 @@ select.stateSelect{
 
 .hiloPrice{
     display: flex;
-    flex-direction: column;
-    color: var(--colour-medium);
-    font-size: 20px;    
+    flex-direction: column;   
 }
 
 /* Line under product, quality and price */
@@ -489,21 +470,10 @@ hr{
 }
 
 
-/* product info for linen top */
-
-.bold{
-    font-weight: bold;
-    font-size: 30px;
-}
-
 /* pay now btn */
 .payNow{
-    background-color: var(--colour-dark);
     justify-content: center;
-    color: white;
     padding: 10px 100px;
-    font-size: 30px;
-    text-decoration: none;
 }
 
 
@@ -557,4 +527,9 @@ hr{
     white-space: nowrap;
     width: 0vw;
     margin-right: -17%;
+}
+
+/* CHECKOUT */
+.newFormType{
+
 }

@@ -175,3 +175,61 @@ footer{
 .featured_text{
     font-weight: bold;
 }
+
+/* SHOPPING CART */
+.pageTitle > h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pageTitle > p{
+    text-align: center;
+}
+
+.linenTop > p{
+    font-size: 20px;
+}
+
+.bolded {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.productTitle{
+    font-size: 1.125rem;
+}
+
+.linenQuantity{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hiloQuantity{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.linenPrice{
+    font-size: 20px;
+}
+
+.hiloPrice{
+    font-size: 20px;    
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.payNow{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* SHOPPING CART */
+.newFormType > h1{
+    font-size: 20px;
+    color: var(--colour-dark);
+}
