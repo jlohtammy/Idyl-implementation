@@ -290,6 +290,7 @@ footer input[type=email]{
     flex-direction: row;
     gap: 7%;
     margin-top: 5%;
+    object-fit: cover;
 }
 
 .textbox{
@@ -336,7 +337,21 @@ footer input[type=email]{
 .lastBlock > p{
     margin-top: 10%;
 }
+/* PRODUCT PAGE 2*/
 
+.prodPage2_images{
+    display: flex;
+    flex-direction: column;
+    float: left; 
+    object-fit: cover;
+}
+
+.values > img{
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0 40%;
+}
 
 select.stateSelect{
     width: 27%;
