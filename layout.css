@@ -337,9 +337,6 @@ footer input[type=email]{
     margin-top: 10%;
 }
 
-.prodpage2_images{
-    object-fit: cover;
-}
 
 select.stateSelect{
     width: 27%;
