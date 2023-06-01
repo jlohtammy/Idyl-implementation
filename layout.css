@@ -358,7 +358,7 @@ select.stateSelect{
 }
 
 /* SHOPPING CART */
-.cartText > h1{
+.pageTitle > h1{
     font-size: 50px;
     justify-content: center;
     text-align: center;
@@ -367,6 +367,10 @@ select.stateSelect{
     color: var(--colour-dark);
 }
 
+.pageTitle > p{
+    justify-content: center;
+    text-align: center;
+}
 .patternedTop{
     margin-left: -10%;
 
@@ -524,11 +528,12 @@ hr{
 /* pay now btn */
 .payNow{
     background-color: var(--colour-dark);
+    justify-content: center;
     color: white;
     padding: 10px 100px;
     font-size: 30px;
     text-decoration: none;
-    margin-left: 935px;
+    margin-left: 600px;
 }
 
 .quantity{
@@ -540,5 +545,19 @@ hr{
 }
 
 
+.firstColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
 
+.secondColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: row;
+}
 
