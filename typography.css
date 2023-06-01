@@ -133,6 +133,7 @@ footer{
 
 .description > p{
     font-weight: bold;
+    font-size: 1.56rem;
 }
 
 .lastBlock{
@@ -146,7 +147,7 @@ footer{
 }
 
 .sizeBtns{
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     color: var(--colour-dark);
     text-decoration: none;
 }
