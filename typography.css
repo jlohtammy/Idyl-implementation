@@ -160,3 +160,13 @@ footer{
     text-decoration: none;
     font-size: 20px;
 }
+
+.prodName{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.price{
+    text-align: center;
+}

@@ -90,3 +90,8 @@ body{
     background-color: var(--colour-dark);
     color: var(--colour-light);
 }
+
+.container{
+    background-color: #EAE0D0;
+    
+}
