@@ -233,3 +233,23 @@ footer{
     font-size: 20px;
     color: var(--colour-dark);
 }
+
+/* CHECKOUT */
+input[type=text] {                                                            
+  font-family: var(--font-family);
+  font-size: 15px;
+}
+
+input[type=email]{
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+
+.addressDetails{
+    width: 100%;
+
+}
+
+input[type=number]{
+    width: 10%;
+}
