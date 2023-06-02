@@ -181,5 +181,12 @@ select.stateSelect{
     color: var(--colour-dark);
 }
 
+/* SIDE CART */
 
+.sidecart{
+    background-color: #ECEFF1;
+}
 
+.side_title{
+    color: var(--colour-dark);
+}

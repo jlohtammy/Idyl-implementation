@@ -688,4 +688,22 @@ select.stateSelect{
     border-radius: 17px;
 }
 
+/* SIDE CART */
+.sidecart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 25vw;
+}
 
+.cartContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.side_title{
+    text-align: center;
+    margin-top: 12%;
+}
