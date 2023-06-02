@@ -530,9 +530,15 @@ hr{
 }
 
 /* CHECKOUT */
-
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
 /* email input */
 input[type=email]{
+    display: flex;
+    flex-direction: column;
     width: 30%;
     padding: 10px 10px;
     margin: 8px 0;
@@ -542,7 +548,7 @@ input[type=email]{
     }
 
 /* shipping info */
-input[type=text] {                                                            
+input[type=text] {                                                          
     width: 25%;
     padding: 10px 10px;
     margin: 30px 0;
@@ -566,5 +572,14 @@ input[type=number]{
     width: 10%;
     height: 10%;
     object-fit: cover;
-    
+}
+
+.cartPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartOverview{
+    margin-left: 80% ;
+    margin-top: -600px
 }
