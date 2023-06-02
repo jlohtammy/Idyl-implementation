@@ -133,20 +133,41 @@ body{
     color: white;
 }
 
-/* CHECKOUT */
-input[type=text] {
-    color: var(--colour-medium);
-    border: var(--colour-medium);
+/* checkout */
+.checkout{
+    background-color: var(--colour-lightest);
 }
 
-input[type=email]{
-   color: var(--colour-medium);
-   border: var(--colour-medium);
+.formPart{
+    background-color: var(--colour-medium-cold);
 }
 
-input[type=number]{
+input[type=email], input[type=text], input[type=number], input[type=tel]{
+    border: 1px solid var(--colour-medium);
+    color: var(--colour-dark);
+}
+
+
+.cartPart{
+    background-color: var(--colour-light-cold);
+}
+
+.radioBox1, .radioBox2{
+    background-color: white;
+    border: 1px solid var(--colour-medium);
+    color: var(--colour-dark);
+}
+
+.crumbs a{
+    color: var(--colour-dark);
+}
+
+.selectDefault{
     color: var(--colour-medium);
-    border: var(--colour-medium);
+}
+
+select.stateSelect{
+    color: var(--colour-dark);
 }
 
 

@@ -529,4 +529,142 @@ hr{
     margin-right: -17%;
 }
 
+/* CHECKOUT */
+.checkout{
+    padding-top: 5%;
+    width: 100%;
+}
+
+.divide{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.formPart{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    padding: 5% 0 10% 10%;
+}
+
+.crumbs{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    /* padding-bottom: 5%; */
+}
+
+input[type=email], input[type=text],input[type=number], input[type=tel]{
+    width: 70%;
+    height: 45px; 
+    padding: 12px 20px; 
+    margin:3% 1% 2% 0;
+    border-radius: 17px;
+}
+
+.addressDetails input[type=text], input[type=number]{
+    width: 20%;
+}
+
+.newFormType{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.cartPart{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+}
+
+.cartOverview{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 0 50px;
+}
+
+.cartItems{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+}
+
+.imageIcon{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-image: none;
+    opacity: 100%;
+    margin-right: 5%;
+    border-radius: 25%;
+}
+
+.subtotal, .shippingPrice, .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.subtotal{
+    padding-top: 50px;
+
+}
+
+.radioBox1, .radioBox2{
+    width: 70%;
+    height: 45px;
+    padding: 1% 2%;
+}
+
+.radioBox1{
+    border-radius: 17px 17px 0 0;
+    margin-top: 3%;
+}
+
+.radioBox2{
+    border-radius: 0 0 17px 17px;
+}
+
+input[type=radio] {
+    padding-bottom: 500px;
+}
+
+.giftCard .applyBtn{
+    width: 27.8%;
+}
+
+#cardName, #cardNumber, #expDate, #cvv{
+    margin-top: 0;
+    width: 70%;;
+}
+
+.h1TopPad{
+    margin-bottom: 3%;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+select.stateSelect{
+    width: 27%;
+    height: 45px; 
+    padding: 12px 20px; 
+    margin:3% 1% 2% 0;
+    border-radius: 17px;
+}
+
 
