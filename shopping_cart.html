@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/ojd2aku.css">
     <title>Shopping Cart</title>
 </head>
-<body>
+<body class="ShoppingCart">
     <div class="pageTitle">
             <h1>YOUR CART</h1>
             <p>Continue Shopping</p>
@@ -19,13 +19,16 @@
  <br>
  <br>
  <br>
- <hr width="80%">
+ <hr width="70%">
+
     <section class="sectionOne">
         <br>
-        <img class="patternedTop" src="Assets/colourful top.jpg" alt="linen & cotton summer top"
+        <section class="summerImage">
+            <img class="patternedTop" src="Assets/colourful top.jpg" alt="linen & cotton summer top"
         width="150"
         height="220">
-        <div class = "linenProdInfo">
+    </section>
+        <section class= "linenProdInfo">
             <br>
             <p>LINEN & COTTON SUMMER TOP</p>
             <p>Size 10</p>
@@ -34,21 +37,22 @@
             <br>
         <p><span class="edit">Edit</span></p>
         <p><span class="remove">Remove</span></p>
-    </div>
-
-    <div class="linenQuantity">
-        <p>1 +</p>
-    </div>
-
-    <div class="linenPrice">
-        <p>$169</p>
-    </div>
+    </section>
+    <section class="Quant_Price_Linen">
+        <div class="linenQuantity">
+            <p>1 +</p>
+        </div>
+        <div class="linenPrice">
+            <p>$169</p>
+        </div>
+    </section>
     </section>   
     
-    <hr width="80%">
+    <hr width="70%">
 
     <section class="sectionTwo">
         <br>
+        <section class="hiloTopImage"></section>
         <img class="blueTop" src="Assets/idyl_top.jpg" alt="hilo blue top"
         width="150"
         height="220">
@@ -62,29 +66,75 @@
             <p><span class="edit">Edit</span></p>
             <p><span class="remove">Remove</span></p>
         </div>
-
-    <div class="hiloQuantity">
-        <p>1 +</p>
-    </div>
-    <div class="hiloPrice">
-        <p>$149</p>
-
-    </div>
+        <section class="Quant_Price_Hilo">
+            <div class="hiloQuantity">
+                <p>1 +</p>
+            </div>
+            <div class="hiloPrice">
+                <p>$149</p>
+            </div>
+    </section>
 </section>
 
-<hr width="80%">
+<hr width="70%">
 
-    <div class="subtotal">
-        <p>SUBTOTAL:</p><span class="bold"><p>$318</p></span>
+    <section class="subtotal">
+        <div class="subtotalText">
+        <p>SUBTOTAL:</p>
+        <p>$318</p>
         <p>Excl. taxes & shipping</p>
-    </div>
+        </div>
+    </section>
 
-    <br>
-    <br>
-    
-    <div class="btn-box">
+        <div class="payNowBtn">
         <a href="#" class="payNow">PAY NOW</a>
     </div>
 
 </body>
+
+<footer>
+    <article class="newsLetter">
+        <h1>Join our newsletter!</h1>
+        <input type="email" placeholder="Enter your email...">
+        <button class="applyBtn">Apply</button>
+    </article>
+    <section class = "info">
+        <article class="openingHours">
+            <section class="openingHours">
+                <h1>Opening hours</h1>
+                <p>Monday - Saturday</p>
+                <b>10am to 4pm</b>
+                <p>Sunday</p>
+                <b>11am to 3pm</b>
+            </section>
+        </article>
+        <article class="contactUs">
+            <section class="phoneEmail">
+                <h1>Contact us</h1>
+                <p>Phone</p>
+                <b>03 9247 3473</b>
+                <p>Email</p>
+                <b>info@idyl.com.au</b>
+            </section>  
+            <section class="address">
+                <p>Address</p>
+                <b>388 Lygon Street</b> 
+                <br>
+                <b>Carlton, VIC 3053</b> 
+                <br>
+                <b>Australia</b>
+            </section>
+        </article>
+        <article>
+            
+        </article>
+    </section>
+    <br>
+    <p class="ownersNote">Keep in mind we are a small family business, therefore we might close early at times. Therefore, please ring ahead if you plan to visit during our last hour of trade. </p>
+    <br>
+    <section id="socials">
+        <a href="https://www.facebook.com/idylclothing/"><img src="Assets/facebook_icon.svg" alt="Facebook icon"></a>
+        <a href="https://www.instagram.com/idylclothing/"><img src="Assets/insta_icon.svg" alt="Instagram icon"></a>
+    </section>
+</footer>
 </html>

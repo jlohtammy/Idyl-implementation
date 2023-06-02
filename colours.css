@@ -96,6 +96,10 @@ body{
 }
 
 /* SHOPPING CART */
+
+.ShoppingCart{
+    background-color: var(--colour-light-cold);
+}
 .pageTitle > h1{
     color: var(--colour-dark);
 }

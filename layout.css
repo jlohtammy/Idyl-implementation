@@ -347,8 +347,6 @@ footer input[type=email]{
 }
 
 
-
-
 select.stateSelect{
     width: 27%;
     height: 45px; 
@@ -395,68 +393,39 @@ select.stateSelect{
     gap: 50px;
 }
 
-.LinenProdInfo{
-    margin-left: 10%;
-    margin-top: 1%;
-}
-
-.bolded {
-    font-weight: 600;
-    color: var(--colour-medium);
-    font-size: 20px;
-}
 
 .HiloProdInfo{
-    margin-left: -2%;
     white-space: nowrap;
 }
 
-
-/* subtitles */
-.productTitle{
+.Quant_Price_Linen{
     display: flex;
     flex-direction: row;
-    margin-left: 19%;
-    font-size: 1.125rem;
-    gap: 25%;
-    color: var(--colour-medium);
 }
 
-
-/* quantity */
-.linenQuantity{
+.Quant_Price_Hilo{
     display: flex;
-    flex-direction: column;
-    color: var(--colour-medium);
-    font-size: 20px;
-    margin-left: 9%;
-    margin-top: 0%;
-    font-weight: 500;
+    flex-direction: row;
 }
 
 .hiloQuantity{
-    display: flex;
-    flex-direction: column;
-    color: var(--colour-medium);
-    font-size: 20px;
-    margin-left: 8%;
-    font-weight: 500;
     white-space: nowrap;
 }
 
-/* price*/
-.linenPrice{
-    display: flex;
-    flex-direction: column;
-    color: var(--colour-medium);
-    font-size: 20px;
-    margin-left: 14%;
+.blueTop{
+    object-fit: cover;
 }
 
-.hiloPrice{
-    display: flex;
-    flex-direction: column;   
+.patternedTop{
+    object-fit: cover;
 }
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
 
 /* Line under product, quality and price */
 hr{
@@ -472,10 +441,13 @@ hr{
 
 /* pay now btn */
 .payNow{
-    justify-content: center;
+    float: right;
+    text-align: center;
     padding: 10px 100px;
+    margin-left: 48vw;
+    margin-top: 5vh;
+    
 }
-
 
 .sectionOne{
     display: flex;
@@ -485,48 +457,52 @@ hr{
 .sectionTwo{
     display: flex;
     flex-direction: row;
-    margin-left: -12%;
+}
+
+.blueTop{
+    margin-left: -2vw;
 }
 
 .linenProdInfo{
     width: 40vw;
-    margin-left: 20%;
+    margin-left: 15%;
+   
 }
 
 .HiloProdInfo{
     width: 40vw;
-    margin-left: 20%;
+    margin-left: 18%;
+   
 }
-
 
 .linenQuantity{
     white-space: nowrap;
 }
 
 .hiloPrice{
-    display: flex;
-    flex-direction: row;
-    margin-right: -11%;
-}
-.hiloQuantity{
-    display: flex;
-    flex-direction: row;
-    margin-right: 13%;
+    margin-left: -30%;
 }
 
-.subtotal{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    margin-right: -50%;
-}
-
-.btn-box{
-    display: flex;
-    flex-direction: row;
+.subtotalText{
+    text-align: right;
     white-space: nowrap;
-    width: 0vw;
-    margin-right: -17%;
+    width: 70vw;
+}
+
+.Quant_Price_Hilo{
+    display: flex;
+    flex-direction: row;
+    gap: 150%;
+    margin-left: -20%;
+    margin-top: 2%;
+}
+
+.Quant_Price_Linen{
+    display: flex;
+    flex-direction: row;
+    gap: 113%;
+    margin-left: -18.5%;
+    margin-top: 2%;
 }
 
 /* CHECKOUT */
