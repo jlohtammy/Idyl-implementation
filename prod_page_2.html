@@ -10,23 +10,53 @@
 </head>
 <body>
  
+    <header>
+        <a href="#"><img id="logo" src="Assets/IDYLlogo.svg" alt="IDYL logo"></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">clothing</a>
+                    <section class="megaMenu">
+                        <ul>
+                            <li><a href="prod_list.html">Tops & Tshirts</a></li>
+                            <li>Jackets</li>
+                            <li>Pants</li>
+                        </ul>
+                    </section>
+                </li>
+                <li>accessories</li>
+                <li>news</li>
+                <li>sale</li>
+                <li>gift cards</li>
+            </ul>
+        </nav>
+        <section>
+            <article class="search">
+                <input id = "searchInput" type="search">
+                <img class = "search"src="Assets/search_icon.svg" alt="search icon">
+            </article>
+            <article id="cart">
+                <img src="Assets/cart_icon.svg" alt="shopping cart icon">
+            </article>
+        </section>
+    </header>
     <section class="contentContainer">
         <!-- Images on the left (COLUMN 1) -->
         <section class="prodPage2_images">
             <div class="mainImage2">
-                <img src="Assets/second_shot.jpg" class="blue_top" alt="Woman wearing hilo blue top outside"
+                <img src="Assets/second_shot.jpg" class="patterned_image" alt="Woman wearing hilo blue top outside"
                 width="350"
                 height="500">
             </div>
             
         <div class="smallerImages">
-            <img src="Assets/colourful top.jpg" alt="Blue top model white background"
+            <img src="Assets/colourful top.jpg" class="bottom_one" alt="Blue top model white background"
             width="100"
             height="150">
-            <img src="Assets/fabric_pattern.jpg" alt="hilo top stock image"
+            <img src="Assets/fabric_pattern.jpg" class="bottom_two" alt="hilo top stock image"
             width="100"
             height="150">
-            <img src="Assets/second_shot.jpg" alt="Woman wearing hilo blue top outside"
+            <img src="Assets/second_shot.jpg" class="bottom_three" alt="Woman wearing hilo blue top outside"
             width="100"
             height="150">
         </div>
@@ -80,7 +110,7 @@
         <p class="featured_text">IF YOU LIKED THIS...</p>
         <div class="featured">
         <figure>
-        <img src="Assets/summer_print_top.jpg" alt="Pink print top"
+        <img src="Assets/summer_print_top.jpg" class="liked_image" alt="Pink print top"
         width="140"
         height="200">
         <figcaption class="prodName">SUMMER PRINT TOP</figcaption>
@@ -88,7 +118,7 @@
     </figure>
     
     <figure>
-        <img src="Assets/purple_green_patterned top.jpg" alt="Purple patterned top"
+        <img src="Assets/purple_green_patterned top.jpg" class="liked_image" alt="Purple patterned top"
         width="140"
         height="206">
         <figcaption class="prodName">PURE COTTON PRINT TEE</figcaption>
@@ -96,7 +126,7 @@
     </figure>
     
     <figure>
-        <img src="Assets/yellow summer top.jpg" alt="Yellow patterned top"
+        <img src="Assets/yellow summer top.jpg" class="liked_image" alt="Yellow patterned top"
         width="140"
         height="206">
         <figcaption class="prodName">LINEN & COTTON BLEND SUMMER TOP</figcaption>
@@ -104,7 +134,7 @@
     </figure>
     
     <figure>
-        <img src="Assets/poncho.jpg" alt="Green poncho"
+        <img src="Assets/poncho.jpg" class="liked_image" alt="Green poncho"
         width="140"
         height="206">
         <figcaption class="prodName">PURE WOOL LIGHTWEIGHT PONCHO</figcaption>
