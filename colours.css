@@ -144,3 +144,10 @@ input[type=email]{
    border: var(--colour-medium);
 }
 
+input[type=number]{
+    color: var(--colour-medium);
+    border: var(--colour-medium);
+}
+
+
+
