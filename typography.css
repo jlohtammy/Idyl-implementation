@@ -20,6 +20,14 @@ body {
     font-style: normal;
 }
 
+.myselect{
+    font-family: "futura-pt", sans-serif;
+}
+
+.myselect2{
+    font-family: "futura-pt", sans-serif;
+}
+
 /* HOMEPAGE */
 h1{
     text-transform: uppercase;
@@ -180,6 +188,11 @@ footer{
 
 .featured_text{
     font-weight: bold;
+}
+
+.sizeBtns{
+    color: var(--colour-dark);
+    text-decoration: none;
 }
 
 /* SHOPPING CART */

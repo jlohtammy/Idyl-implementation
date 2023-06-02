@@ -151,6 +151,7 @@ header > section > article > img {
     margin: 10px;
 }
 
+
  /* BLUE FOOTER SECTION */
 
  footer{
@@ -359,6 +360,10 @@ body {
 .lastBlock > p{
     margin-top: 10%;
 }
+
+.liked_image{
+    object-fit: cover;
+}
 /* PRODUCT PAGE 2*/
 
 .prodPage2_images{
@@ -378,6 +383,18 @@ select.stateSelect{
 }
 
 .patterned_image{
+    object-fit: cover;
+}
+
+.bottom_one{
+    object-fit: cover;
+}
+
+.bottom_two{
+    object-fit: cover;
+}
+
+.bottom_three{
     object-fit: cover;
 }
 
