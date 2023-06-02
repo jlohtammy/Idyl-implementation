@@ -230,9 +230,13 @@ body {
         text-align: center;
     }
 
-    /* FLEX BOX FOR CONTENT */
+    .lastBox{
+        margin-top: 2%;
+    }
+
 .layout {
-    margin-top: 10%;
+    margin-top: 7%;
+    margin-bottom: 4%;
     width: 70vw;
     margin-left: 1%;
     display: flex;
@@ -251,8 +255,6 @@ body {
     object-fit: cover;
 }
 
-
-/* FILTER AND SORT BUTTONS */
 .filterDiv{
     float: left;
     width: 20vw;
@@ -281,6 +283,13 @@ body {
     left: 31%;
     position: absolute;
     background-color: transparent;
+}
+
+.lastBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+    padding: 100px;
 }
 
 /* Product page 1 */
@@ -366,6 +375,10 @@ select.stateSelect{
     padding: 12px 20px; 
     margin:3% 1% 2% 0;
     border-radius: 17px;
+}
+
+.patterned_image{
+    object-fit: cover;
 }
 
 /* SHOPPING CART */
