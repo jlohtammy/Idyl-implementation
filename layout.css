@@ -530,6 +530,20 @@ hr{
 }
 
 /* CHECKOUT */
-.newFormType{
+input[type=text] {                                                            
+    width: 25%;
+    padding: 10px 10px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid;
+}
 
+input[type=email]{
+    width: 30%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid;
 }

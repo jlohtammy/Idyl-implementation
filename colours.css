@@ -132,3 +132,15 @@ body{
     background-color: var(--colour-dark);
     color: white;
 }
+
+/* CHECKOUT */
+input[type=text] {
+    color: var(--colour-medium);
+    border: var(--colour-medium);
+}
+
+input[type=email]{
+   color: var(--colour-medium);
+   border: var(--colour-medium);
+}
+
