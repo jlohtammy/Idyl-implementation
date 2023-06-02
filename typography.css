@@ -94,6 +94,12 @@ footer{
     line-height: 1.5em;
 }
 
+/* PRODUCT LIST */
+.prodName{
+    justify-content: center;
+    text-align: center;
+    
+}
 
 /* PRODUCT NAMES */
 .bolded {
@@ -224,10 +230,22 @@ footer{
 
 .payNow{
     font-size: 30px;
+    font-weight: 500;
     text-decoration: none;
 }
 
 /* SHOPPING CART */
+
+.subTitle{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cartPrice{
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .newFormType > h1{
     font-size: 20px;
     color: var(--colour-dark);

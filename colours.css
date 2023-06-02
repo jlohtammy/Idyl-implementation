@@ -137,6 +137,13 @@ body{
     color: white;
 }
 
+.subTitle{
+    color: var(--colour-dark);
+}
+
+.cartPrice{
+    color: var(--colour-dark);
+}
 /* checkout */
 .checkout{
     background-color: var(--colour-lightest);

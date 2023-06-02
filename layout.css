@@ -209,27 +209,40 @@ footer input[type=email]{
 }
 
 /* PRODUCT LIST */
-    body {
-        min-height: 100vh;
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .prodList {
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+
+    figure figcaption{
+        text-align: center;
+    }
+
     /* FLEX BOX FOR CONTENT */
 .layout {
+    margin-top: 10%;
+    width: 70vw;
+    margin-left: 1%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 10em;  
-    margin-left: -3.5em;
-    margin-right: -3.5em;
     align-items: center;
     justify-content: center;
-    row-gap: 20%;
     object-fit: cover;
-    gap: 4vw;
+    gap: 16%;
+    gap: 5vw;
 }
 
 .item{
@@ -242,7 +255,7 @@ footer input[type=email]{
 /* FILTER AND SORT BUTTONS */
 .filterDiv{
     float: left;
-    width: 10vw;
+    width: 20vw;
     line-height: 10vw;
     text-align: center;
     display: none;
@@ -258,14 +271,14 @@ footer input[type=email]{
 
 .myselect{
     top: 27%;
-    left: 8%;
+    left: 23%;
     position: absolute;
     background-color: transparent;
 }
 
 .myselect2{
     top: 27%;
-    left: 16%;
+    left: 31%;
     position: absolute;
     background-color: transparent;
 }
@@ -448,8 +461,7 @@ hr{
     text-align: center;
     padding: 10px 100px;
     margin-left: 48vw;
-    margin-top: 5vh;
-    
+    margin-top: 4vh;
 }
 
 .sectionOne{
