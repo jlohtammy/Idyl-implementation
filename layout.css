@@ -356,6 +356,9 @@ select.stateSelect{
 }
 
 /* SHOPPING CART */
+.ShoppingCart{
+    margin-top: 5%;
+}
 .pageTitle > h1{
     justify-content: center;
     margin-top: 70px;
