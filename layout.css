@@ -816,7 +816,7 @@ form > .add-cart-btn {
     gap: 1rem;
 }
 
-.subtotal{
+.subtotal_side_cart{
     display: flex;
     flex-direction: column;
     width: 10vw;
