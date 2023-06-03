@@ -193,3 +193,11 @@ hr.checkout-hr{
 .side_title{
     color: var(--colour-dark);
 }
+
+.side_cart_line{
+    color: var(--colour-dark);
+}
+
+.side_sub{
+    color: var(--colour-dark);
+}

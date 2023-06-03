@@ -715,13 +715,11 @@ hr.checkout-hr{
     top: 0;
     right: 0;
     height: 100vh;
-    width: 25vw;
+    width: 30vw;
 }
 
-.cartContent{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.cart_content{
+    margin-top: -5%;
 }
 
 .cart_header {
@@ -751,40 +749,100 @@ hr.checkout-hr{
 
 /* Cart Items*/
 
-
-
-
-
 .cart_items{
     flex: 1;
     overflow-x: hidden;
+    margin-top: -7%;
 }
 
-.cart_item{
+.cart_item1{
     position: relative;
     padding: 1rem;
     width: 100%;
     min-height: 150px;
     display: flex;
-
 }
 
 .summer_top_side{
-    width: 10vw;
-    height: 25vh;
+    width: 7vw;
+    height: 20vh;
     object-fit: cover;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.blue_top_side{
+    width: 7vw;
+    height: 20vh;
+    object-fit: cover;
+    margin-left: 3vw;
 }
 
 .summer_details{
     display: flex;
     flex-direction: column;
     float: right;
+    margin-top: 2vh;
+    margin-left: 4vw;
 }
 
+.blue_details{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 10vw;
+    margin-right: 2.9vw;
+}
 .summer_title{
     width: 10vw;
 }
 
 form > .add-cart-btn {
     width: 5%;
+}
+
+/* Cart Items */
+.cart_items {
+    flex: 1;
+    overflow-x: hidden;
+}
+
+/* Cart Actions */
+.cart_actions{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    margin-left: 1vw;
+    margin-top: -8vh;
+}
+
+.side_cart_line{
+    width: 80%;
+}
+
+.exclusion{
+    white-space: nowrap;
+}
+
+.side_sub{
+    margin-top: -7%;
+    white-space: nowrap;
+}
+
+.go_to_cart_btn{
+    font: var(--font-family);
+    padding: 10px 10px;
+}
+
+    margin-left: -1%;
+    text-decoration: none;
+    padding: 10px 100px;
+    border: none;
 }
