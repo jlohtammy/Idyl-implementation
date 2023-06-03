@@ -730,14 +730,32 @@ select.stateSelect{
 
 /* Cart Items*/
 
+
+
+
+
+.cart_items{
+    flex: 1;
+    overflow-x: hidden;
+}
+
+.cart_item{
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+
+}
+
 .summer_top_side{
     width: 10vw;
     height: 25vh;
     object-fit: cover;
 }
 
-.blue_top_side{
-    width: 10vw;
-    height: 25vh;
-    object-fit: cover;
+.summer_details{
+    display: flex;
+    flex-direction: column;
+    float: right;
 }
