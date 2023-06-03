@@ -708,6 +708,10 @@ hr.checkout-hr{
     margin: 10% 0;
 }
 
+#billingForm{
+    display: none;
+}
+
 /* SIDE CART */
 .sidecart{
     position: fixed;
