@@ -8,19 +8,19 @@ function reveal() {
 }
 
 // SIDE CART
-const openBtn = document.getElementById('open_cart_btn')
+const openBtn = document.getElementById('open_cart_ btn')
 const cart = document.getElementById('sidecart')
 const closeBtn = document.getElementById('close_btn')
 
-openBtn.addEventListener('click', openCart)
-closeBtn.addEventListener('click', closeCart)
+openBtn.addEventListener('click' , openCart)
+closeBtn.addEventListener('click' , closeCart)
 
 // Open Cart
-function openCart(){
+function openCart() {
     cart.classList.add('open')
 }
 
 // Close Cart
 function closeCart(){
-    cart.classList.remove('open')
+    cart.classList.remove('close')
 }

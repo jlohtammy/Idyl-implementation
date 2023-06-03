@@ -726,6 +726,11 @@ hr.checkout-hr{
 /* OPEN CART BUTTON IN NAV BAR */
 #open_cart_btn{
     border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 .sidecart{
     position: fixed;
