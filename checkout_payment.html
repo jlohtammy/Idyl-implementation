@@ -54,6 +54,8 @@
             <form>
                 <section class="newFormType">
                     <h1>Payment info</h1>
+                    <br>
+
                     <label for="cardName">Name on Card</label>
                     <input type="text" id="cardName" name="cardName">
                     <label for="cardNumber">Card Number</label>
@@ -91,7 +93,7 @@
                     <input type="text" id="formAddress" name="address" placeholder="Address*">
                     <section class="addressDetails">
                         <input type="text" id="city" name="city" placeholder="City/Town*">
-                        <select id="states" name="states">
+                        <select class="stateSelect">
                             <option value="" disabled selected>State/Territory</option>
                             <option value="act">Australian Capital Territory</option>
                             <option value="nsw">New South Wales</option>
@@ -106,9 +108,8 @@
                     </section>
                     <input type="tel" id="phone" name="phone" placeholder="Phone*">
                 </section>  
-                <a href="checkout_payment.html">
-                    <button>continue to payment</button>
-                </a>
+                <a class="add-cart-btn" href="checkout_payment.html"> continue to payment</a>
+
             </form>
         </section>
 
