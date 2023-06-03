@@ -682,6 +682,11 @@ a.add-cart-btn{
     justify-self: right;
 }
 
+.extraPadding{
+    padding-top: 10%;
+    padding-left: 26%;
+}
+
 .h1TopPad{
     margin-bottom: 3%;
 }
