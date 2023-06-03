@@ -337,7 +337,8 @@ body {
 .sizeBtns{
     display: flex;
     gap: 15%;
-    margin-top: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .featured{
@@ -356,9 +357,11 @@ body {
 .featured_text{
     margin-left: -8.5vw;
 }
-
+.lastBlock{
+    width: 30vw;
+}
 .lastBlock > p{
-    margin-top: 10%;
+    margin-top: 11%;
 }
 
 .liked_image{
@@ -706,4 +709,8 @@ select.stateSelect{
 .side_title{
     text-align: center;
     margin-top: 12%;
+}
+
+form > .add-cart-btn {
+    width: 5%;
 }

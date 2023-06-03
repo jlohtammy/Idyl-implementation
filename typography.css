@@ -161,10 +161,19 @@ footer{
 }
 
 .sizeBtns{
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: var(--colour-dark);
     text-decoration: none;
 }
+
+a.sizeBtns:hover{
+    text-decoration: underline;
+}
+
+a.sizeBtns:focus{
+    text-decoration: underline;
+}
+
 
 .add-cart-btn{
     text-decoration: none;
