@@ -697,7 +697,7 @@ select.stateSelect{
     top: 0;
     right: 0;
     height: 100vh;
-    width: 25vw;
+    width: 30vw;
 }
 
 .cartContent{
@@ -733,36 +733,49 @@ select.stateSelect{
 
 /* Cart Items*/
 
-
-
-
-
 .cart_items{
     flex: 1;
     overflow-x: hidden;
 }
 
-.cart_item{
+.cart_item1{
     position: relative;
     padding: 1rem;
     width: 100%;
     min-height: 150px;
     display: flex;
-
 }
 
 .summer_top_side{
     width: 10vw;
     height: 25vh;
     object-fit: cover;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.blue_top_side{
+    width: 10vw;
+    height: 25vh;
+    object-fit: cover;
+    margin-left: 3vw;
 }
 
 .summer_details{
     display: flex;
     flex-direction: column;
     float: right;
+    margin-top: 2vh;
+    margin-left: 4vw;
 }
 
+.blue_details{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 10vw;
+    margin-right: 2.9vw;
+}
 .summer_title{
     width: 10vw;
 }
