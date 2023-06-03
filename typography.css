@@ -318,3 +318,23 @@ select.stateSelect{
     font-size: 15px;
 }
 
+.edit{
+    font-size: 15px;
+}
+.remove{
+    font-size: 15px;
+}
+
+.hilo_top_title{
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hilo_size{
+    font-size: 15px;
+}
+
+.hilo_price{
+    font-size: 15px;
+}
