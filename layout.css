@@ -723,9 +723,9 @@ hr.checkout-hr{
     overflow-x: hidden;
 }
 
+/* OPEN CART BUTTON IN NAV BAR */
 #open_cart_btn{
     border: none;
-    
 }
 .sidecart{
     position: fixed;
@@ -739,7 +739,6 @@ hr.checkout-hr{
 .sidecart.open{
     transform: translateX(0);
 }
-
 
 
 .cart_content{
@@ -761,7 +760,7 @@ hr.checkout-hr{
     left: 26%;
 }
 
-.exit_btn{
+.close_btn{
     font-size: 4rem;
     margin-right: 4%;
     margin-top: 4.5%;
@@ -876,3 +875,4 @@ form > .add-cart-btn {
     text-align: center;
     margin-top: 1%;
 }
+

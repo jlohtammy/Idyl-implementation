@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/ojd2aku.css">
     <link rel="stylesheet" href="https://use.typekit.net/ojd2aku.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
+    <script src="script.js"></script>
     <title>Sidecart</title>
 </head>
 <body class="side_cart_body">
-    <!-- Open Btn -->
     <header>
         <a href="index.html"><img id="logo" src="Assets/IDYLlogo.svg" alt="IDYL logo"></a>
         <nav>
@@ -38,20 +37,20 @@
                 <input id = "searchInput" type="search">
                 <img class = "search"src="Assets/search_icon.svg" alt="search icon">
             </article>
-            <article id="cart">
+        <article id="cart">
+            <!-- open cart btn -->
             <button id="open_cart_btn">
-            <img src="Assets/cart_icon.svg" alt="shopping cart icon" style="width: 25px">
-        </button>
-            </article>
+                <img src="Assets/cart_icon.svg" alt="shopping cart icon" style="width: 25px">
+            </button>
+        </article>
         </section>
     </header>
 
-
-    <div class="sidecart">
+    <div id="sidecart " class="sidecart open">
         <div class="cart_content">
             <div class="cart_header">
                 <p class="side_title">YOUR CART</p>
-                <span id="close-btn" class="exit_btn">&times;</span>
+                <span id="close_btn" class="close_btn">&times;</span>
                  </div>
                 <div class="cart_items">
                 
