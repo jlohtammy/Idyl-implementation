@@ -201,3 +201,13 @@ hr.checkout-hr{
 .side_sub{
     color: var(--colour-dark);
 }
+
+.checkout_btn{
+    background-color: var(--colour-dark);
+    color: white;
+}
+
+.go_to_cart_btn{
+    border: 1px solid var(--colour-dark);
+    color: var(--colour-dark);
+}

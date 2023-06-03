@@ -823,8 +823,7 @@ form > .add-cart-btn {
     display: flex;
     flex-direction: column;
     width: 10vw;
-    margin-left: 1vw;
-    margin-top: -7vh;
+    margin-left: 4%;
 }
 
 .side_cart_line{
@@ -842,5 +841,15 @@ form > .add-cart-btn {
 
 .go_to_cart_btn{
     font: var(--font-family);
-    padding: 10px 7px;
+    padding: 8px ;
+}
+
+.checkout_btn{
+    font: var(--font-family);
+    padding: 8px;
+}
+
+.continue_shopping{
+    text-align: center;
+    margin-top: 1%;
 }
