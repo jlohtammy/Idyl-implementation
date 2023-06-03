@@ -782,7 +782,7 @@ hr.checkout-hr{
     display: flex;
     flex-direction: column;
     float: right;
-    margin-top: 2vh;
+    margin-top: 2.5vh;
     margin-left: 4vw;
 }
 
@@ -791,7 +791,8 @@ hr.checkout-hr{
     flex-direction: column;
     float: right;
     width: 10vw;
-    margin-right: 2.9vw;
+    margin-right: 6vw;
+    
 }
 .summer_title{
     width: 10vw;
@@ -820,7 +821,7 @@ form > .add-cart-btn {
     flex-direction: column;
     width: 10vw;
     margin-left: 1vw;
-    margin-top: -8vh;
+    margin-top: -7vh;
 }
 
 .side_cart_line{
@@ -838,11 +839,5 @@ form > .add-cart-btn {
 
 .go_to_cart_btn{
     font: var(--font-family);
-    padding: 10px 10px;
-}
-
-    margin-left: -1%;
-    text-decoration: none;
-    padding: 10px 100px;
-    border: none;
+    padding: 10px 7px;
 }
