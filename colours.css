@@ -158,7 +158,6 @@ input[type=email], input[type=text], input[type=number], input[type=tel]{
     color: var(--colour-dark);
 }
 
-
 .cartPart{
     background-color: var(--colour-light-cold);
 }
@@ -179,6 +178,10 @@ input[type=email], input[type=text], input[type=number], input[type=tel]{
 
 select.stateSelect{
     color: var(--colour-dark);
+}
+
+hr.checkout-hr{
+    border-color: var(--colour-dark);
 }
 
 /* SIDE CART */
