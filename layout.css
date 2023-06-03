@@ -800,3 +800,24 @@ form > .add-cart-btn {
     flex-direction: column;
     gap: 1rem;
 }
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    margin-left: 1vw;
+    margin-top: -6vh;
+}
+
+.side_cart_line{
+    width: 80%;
+}
+
+.exclusion{
+    white-space: nowrap;
+}
+
+.side_sub{
+    margin-top: -7%;
+    white-space: nowrap;
+}

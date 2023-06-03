@@ -347,3 +347,13 @@ select.stateSelect{
 .hilo_price{
     font-size: 15px;
 }
+
+.side_sub{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exclusion{
+    font-size: 20px;
+    font-weight: 500;
+}
