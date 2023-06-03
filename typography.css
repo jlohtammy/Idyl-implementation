@@ -274,8 +274,10 @@ footer{
 }
 
 input[type=text], input[type=email], input[type=number], input[type=tel]{
-    font-size: var(--font-body);
+    font: var(--font-body);
 }
+
+
 
 .crumbs a{
     text-decoration: none;
