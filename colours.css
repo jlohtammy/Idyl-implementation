@@ -214,3 +214,8 @@ hr.checkout-hr{
     border: 1px solid var(--colour-dark);
     color: var(--colour-dark);
 }
+
+/* confirmation page */
+.blue-background{
+    background-color: var(--colour-medium-cold);
+}

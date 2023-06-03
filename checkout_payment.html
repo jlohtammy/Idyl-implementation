@@ -75,16 +75,16 @@
                     <h1>billing</h1>
                     <div>
                         <section class="radioBox1">
-                            <input type="radio" id="shippingInfo" name="billing" value="shippingInfo">
+                            <input type="radio" id="shippingInfo" name="billing" value="shippingInfo" checked="checked" onclick="reveal()">
                             <label for="shippingInfo">Same as Shipping</label>
                         </section>
                         <section class="radioBox2">
-                            <input type="radio" id="differentShipping" name="billing" value="differentShipping"> 
+                            <input type="radio" id="differentShipping" name="billing" value="differentShipping" onclick="reveal()"> 
                             <label for="differentShipping">Use Different</label>
                         </section>                        
                     </div>
                 </section>  
-                <section class="newFormType">
+                <section class="newFormType" id="billingForm">
                     <h1>billing address</h1>
                     <section class="formName">
                         <input type="text" id="firstName" name="firstName" placeholder="First Name*">
@@ -108,7 +108,10 @@
                     </section>
                     <input type="tel" id="phone" name="phone" placeholder="Phone*">
                 </section>  
-                <a class="add-cart-btn" href="checkout_payment.html"> continue to payment</a>
+                <div class="extraPadding">
+                    <a class="add-cart-btn" href="confirm_order.html"> confirm order</a>
+                </div>
+
 
             </form>
         </section>
@@ -132,7 +135,7 @@
                         <p>Size 10</p>
                     </section>
                 </section>
-                <hr>
+                <hr class="checkout-hr">
                 <section class="cartSummary">
                     <section class="giftCard">
                         <input type="tel" id="giftCode" name="giftCode" placeholder="Gift Card or Discount Code">
@@ -203,5 +206,6 @@
             <a href="https://www.instagram.com/idylclothing/"><img src="Assets/insta_icon.svg" alt="Instagram icon"></a>
         </section>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
