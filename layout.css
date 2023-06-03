@@ -710,16 +710,30 @@ hr.checkout-hr{
 }
 
 /* SIDE CART */
+.side_cart_body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
 .sidecart{
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
     width: 30vw;
+    transform: translateX(110%);
 }
 
+.sidecart.open{
+    transform: translateX(0);
+}
+
+
+
 .cart_content{
-    margin-top: -5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .cart_header {
