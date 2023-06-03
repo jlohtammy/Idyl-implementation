@@ -841,4 +841,12 @@ form > .add-cart-btn {
     padding: 8px ;
 }
 
+.checkout_btn{
+    font: var(--font-family);
+    padding: 8px;
+}
 
+.continue_shopping{
+    text-align: center;
+    margin-top: 1%;
+}
