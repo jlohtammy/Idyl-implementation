@@ -759,3 +759,7 @@ select.stateSelect{
     flex-direction: column;
     float: right;
 }
+
+.summer_title{
+    width: 10vw;
+}
