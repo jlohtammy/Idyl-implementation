@@ -177,12 +177,9 @@ a.sizeBtns:focus{
 
 .add-cart-btn{
     text-decoration: none;
-    font-size: 30px;
-}
-
-.add-cart-btn{
-    text-decoration: none;
     font-size: 20px;
+    font-family: var(--font-body);
+    text-transform: uppercase;
 }
 
 .prodName{
@@ -304,6 +301,7 @@ a.disabled{
 
 select.stateSelect{
     font-size: var(--font-size-body) -12;
+    font-family: var(--font-body);
 }
 
 /* SIDE CART */

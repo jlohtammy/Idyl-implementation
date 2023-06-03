@@ -632,6 +632,11 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
     border-radius: 25%;
 }
 
+.cartSummary{
+    display: flex;
+    flex-direction: column;
+}
+
 .subtotal, .shippingPrice, .total{
     display: flex;
     flex-direction: row;
@@ -672,6 +677,12 @@ input[type=radio] {
     width: 70%;;
 }
 
+a.add-cart-btn{
+    margin-top: 10%;
+    margin-left: 25%;
+    justify-self: right;
+}
+
 .h1TopPad{
     margin-bottom: 3%;
 }
@@ -692,6 +703,10 @@ select.stateSelect{
     padding: 12px 20px; 
     margin:3% 1% 2% 0;
     border-radius: 17px;
+}
+
+hr.checkout-hr{
+    margin: 10% 0;
 }
 
 /* SIDE CART */
