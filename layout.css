@@ -277,6 +277,7 @@ body {
     left: 23%;
     position: absolute;
     background-color: transparent;
+    border: none;
 }
 
 .myselect2{
@@ -284,6 +285,7 @@ body {
     left: 31%;
     position: absolute;
     background-color: transparent;
+    border: none;
 }
 
 .lastBox{
@@ -351,6 +353,7 @@ body {
 .container{
     object-fit: cover;
     padding: 3% 40%;
+    width: 100%;
 }
 
 .featured_text{

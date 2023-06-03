@@ -303,3 +303,18 @@ select.stateSelect{
     font-weight: bold;
     font-size: 30px;
 }
+
+.summer_title{
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.summer_size{
+    font-size: 15px;
+}
+
+.summer_price{
+    font-size: 15px;
+}
+
