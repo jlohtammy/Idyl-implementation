@@ -88,7 +88,7 @@ body{
 /* Product page */
 .add-cart-btn{
     background-color: var(--colour-dark);
-    color: var(--colour-light);
+    color: var(--colour-lightest);
 }
 
 .container{
