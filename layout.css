@@ -632,6 +632,11 @@ input[type=email], input[type=text],input[type=number], input[type=tel]{
     border-radius: 25%;
 }
 
+.cartSummary{
+    display: flex;
+    flex-direction: column;
+}
+
 .subtotal, .shippingPrice, .total{
     display: flex;
     flex-direction: row;
