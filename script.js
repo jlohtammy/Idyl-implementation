@@ -1,10 +1,19 @@
-function reveal() {
+function revealBill() {
     var x = document.getElementById("billingForm");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
         x.style.display = "block";
-  }
+    }
+}
+
+function swapPickup() {
+    var x = document.getElementById("pickupSection");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
 
 // SIDE CART

@@ -718,13 +718,15 @@ hr.checkout-hr{
     margin: 10% 0;
 }
 
-#billingForm{
+#billingForm, #pickupSection{
     display: none;
 }
 
 #address-pickup{
     margin-top: 0;
 }
+
+
 
 /* SIDE CART */
 .side_cart_body{

@@ -63,17 +63,17 @@
                     <h1>deliver method</h1>
                     <div>
                         <section class="radioBox1">
-                            <input type="radio" id="ship" name="delivery" value="ship" checked="checked">
+                            <input type="radio" id="ship" name="delivery" value="ship" checked="checked" onclick="swapPickup()">
                             <label for="ship">Ship</label>
                         </section>
                         <section class="radioBox2">
-                            <input type="radio" id="pickup" name="pickup" value="pickup"> 
+                            <input type="radio" id="pickup" name="delivery" value="pickup" onclick="swapPickup()"> 
                             <label for="pickup">Pick Up</label>
                         </section>                        
                     </div>
                     <p>We do not ship internationally.</p>
                 </section> 
-                <section class="newFormType">
+                <section class="newFormType" id="shipping-section">
                     <h1>shipping info</h1>
                     <section class="formName">
                         <input type="text" id="firstName" name="firstName" placeholder="First Name*">
@@ -97,7 +97,7 @@
                     </section>
                     <input type="tel" id="phone" name="phone" placeholder="Phone*">
                 </section> 
-                <section class="newFormType">
+                <section class="newFormType" id="pickupSection">
                     <h1>pickup info</h1>
                     <br>
                     <div class="flexCol">
