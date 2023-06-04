@@ -7,7 +7,7 @@ function reveal() {
   }
 }
 
-// SIDE CART
+// SIDE CART (attempt at side cart)
 const openBtn = document.getElementById('open_cart_ btn')
 const cart = document.getElementById('sidecart')
 const closeBtn = document.getElementById('close_btn')
