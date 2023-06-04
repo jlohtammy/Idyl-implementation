@@ -722,6 +722,10 @@ hr.checkout-hr{
     display: none;
 }
 
+#address-pickup{
+    margin-top: 0;
+}
+
 /* SIDE CART */
 .side_cart_body{
     min-height: 100vh;

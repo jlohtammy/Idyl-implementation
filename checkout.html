@@ -67,12 +67,12 @@
                             <label for="ship">Ship</label>
                         </section>
                         <section class="radioBox2">
-                            <input type="radio" id="pickup" name="delivery" value="pickup"> 
+                            <input type="radio" id="pickup" name="pickup" value="pickup"> 
                             <label for="pickup">Pick Up</label>
                         </section>                        
                     </div>
                     <p>We do not ship internationally.</p>
-                </section>  
+                </section> 
                 <section class="newFormType">
                     <h1>shipping info</h1>
                     <section class="formName">
@@ -96,7 +96,21 @@
                         <input type="number" id="postcode" name="postcode" placeholder="Postcode*">
                     </section>
                     <input type="tel" id="phone" name="phone" placeholder="Phone*">
-                </section>  
+                </section> 
+                <section class="newFormType">
+                    <h1>pickup info</h1>
+                    <br>
+                    <div class="flexCol">
+                        <label for="address-pickup">Address for Pickup</label>
+                        <input type="text" id="address-pickup" placeholder="388 Lygon Street, Carlton, VIC 3053" disabled>
+                    </div>
+                    <input type="tel" id="tel-pickup" placeholder="Phone*">
+                    <div class="pickup-textcontainer">
+                        <p>We will send you a message and email when your order is ready for pickup. It is 
+                        usually ready in 1 hour, otherwise; keep in mind we might close early at times. 
+                        So please ring ahead if you plan to visit during our last hour of trade. </p>
+                    </div>
+                </section> 
                 <div class="extraPadding">
                     <a class="add-cart-btn" href="checkout_payment.html"> continue to payment</a>
                 </div>
