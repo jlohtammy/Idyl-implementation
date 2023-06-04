@@ -216,3 +216,7 @@ hr.checkout-hr{
 .blue-background{
     background-color: var(--colour-medium-cold);
 }
+
+.confirm-order{
+    background-color: var(--colour-light-cold);
+}
