@@ -66,8 +66,12 @@ header > section{
     display: none;
 }
 
-.search > img{
+img.search{
     scale: 60%;
+}
+
+img.cart-icon{
+    scale: 65%;
 }
 
 .search:active + #searchInput{
