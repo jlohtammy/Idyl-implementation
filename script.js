@@ -24,3 +24,13 @@ function openCart() {
 function closeCart(){
     cart.classList.remove('close')
 }
+
+// let openCart = document.querySelector('.open_side_cart')
+// let closeCart = document.querySelector('.close_btn')
+
+// openCart.addEventListener('click', ()=>{
+//     body.classList.add('active');
+// })
+// closeCart.addEventListener('click', ()=>{
+//     body.classList.remove('active');
+// })
