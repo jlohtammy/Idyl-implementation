@@ -907,8 +907,12 @@ form > .add-cart-btn {
 }
 
 #checked-icon{
-    width: 5vw;
-    height: 5vw;
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    left: 47.5%;
+    top: 23%;
+    margin-bottom: 10%;
 }
 
 .centred-text{
