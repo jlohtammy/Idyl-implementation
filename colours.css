@@ -184,6 +184,19 @@ hr.checkout-hr{
     border-color: var(--colour-dark);
 }
 
+input:disabled{
+    background-color: white;
+}
+
+input:disabled::placeholder{
+    color: var(--colour-dark);
+}
+
+.pickup-textcontainer{
+    width: 40vw;
+    margin-top: 2%;
+}
+
 /* SIDE CART */
 .side_cart_body{
  
@@ -218,4 +231,8 @@ hr.checkout-hr{
 /* confirmation page */
 .blue-background{
     background-color: var(--colour-medium-cold);
+}
+
+.confirm-order{
+    background-color: var(--colour-light-cold);
 }
